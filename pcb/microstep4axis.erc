@@ -1,0 +1,15 @@
+ERC Prüfung (Mi 10 Feb 2010 11:34:30 CET)
+
+***** Blatt / (Root) 
+ERC: Warnung: Pin power_out verbunden mit Pin BiDi (Netz 124) (X= 12,850 Zoll, Y= 1,350 Zoll)
+ERC: Warnung: Pin power_in wird nicht angesteuert (Netz 77) (X= 7,900 Zoll, Y= 2,700 Zoll)
+ERC: Warnung: Pin power_in wird nicht angesteuert (Netz 70) (X= 12,750 Zoll, Y= 2,100 Zoll)
+ERC: Warnung: Pin power_in wird nicht angesteuert (Netz 58) (X= 6,650 Zoll, Y= 4,450 Zoll)
+ERC: Warnung: Pin power_in wird nicht angesteuert (Netz 55) (X= 6,550 Zoll, Y= 8,050 Zoll)
+ERC: Warnung: Pin power_in wird nicht angesteuert (Netz 53) (X= 12,400 Zoll, Y= 4,150 Zoll)
+ERC: Warnung: Pin power_in wird nicht angesteuert (Netz 52) (X= 14,950 Zoll, Y= 7,650 Zoll)
+ERC: Warnung: Pin power_in wird nicht angesteuert (Netz 50) (X= 12,400 Zoll, Y= 7,700 Zoll)
+ERC: Warnung: Pin power_in wird nicht angesteuert (Netz 4) (X= 7,000 Zoll, Y= 0,850 Zoll)
+ERC: Warnung: Pin power_in wird nicht angesteuert (Netz 1) (X= 7,750 Zoll, Y= 3,650 Zoll)
+
+ >> ERC Fehler: 10

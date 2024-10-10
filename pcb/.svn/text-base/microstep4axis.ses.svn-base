@@ -1,0 +1,6736 @@
+
+(session microstep4axis.ses
+  (base_design microstep4axis.dsn)
+  (placement
+    (resolution mil 10)
+    (component SM1206
+      (place R53 16500 -22500 back 270)
+      (place R40 36250 -25000 front 270)
+      (place R34 42000 -41500 back 90)
+      (place R33 61000 -17500 back 180)
+      (place C9 20250 -35750 back 270)
+      (place C6 63500 -16250 back 0)
+      (place C5 25000 -17500 back 270)
+      (place C4 61000 -16250 back 180)
+      (place C3 20500 -17000 back 90)
+      (place C1 40250 -41500 back 270)
+      (place R55 55250 -23750 front 90)
+      (place R54 58250 -23750 front 90)
+      (place R48 22000 -17500 back 270)
+      (place R39 39250 -25000 front 270)
+      (place R38 42250 -25000 front 270)
+      (place R37 45250 -25000 front 270)
+      (place R36 48250 -25000 front 270)
+      (place R69 15500 -20500 back 0)
+      (place C22 14000 -23500 back 180)
+      (place C21 16750 -35250 back 90)
+      (place C24 15250 -41000 back 90)
+      (place C14 23500 -17500 back 270)
+      (place C15 63500 -17500 back 0)
+      (place C36 66750 -35750 back 270)
+      (place C35 51250 -35750 back 270)
+      (place C34 35750 -35750 back 270)
+      (place C33 63000 -35250 back 90)
+      (place C32 47750 -35250 back 90)
+      (place C31 60500 -41000 back 90)
+      (place C30 45000 -41000 back 90)
+      (place C29 32250 -35250 back 90)
+      (place C28 29500 -41000 back 90)
+      (place C25 30750 -41000 back 90)
+      (place C26 46250 -41000 back 90)
+      (place C27 61750 -41000 back 90)
+      (place C23 14000 -41000 back 90)
+      (place R109 47000 -25000 front 90)
+      (place R108 35000 -25000 front 90)
+      (place R107 38000 -25000 front 90)
+      (place R106 41000 -25000 front 90)
+      (place R105 44000 -25000 front 90)
+      (place R104 35750 -16750 back 90)
+      (place R103 37000 -16750 back 90)
+      (place R102 38250 -16750 back 90)
+      (place R101 39500 -16750 back 90)
+      (place R100 40750 -16750 back 90)
+      (place R99 42000 -16750 back 90)
+      (place R98 43250 -16750 back 90)
+      (place R97 44500 -16750 back 90)
+      (place R96 56750 -16750 back 90)
+      (place R95 53500 -16750 back 90)
+      (place R94 55500 -16750 back 90)
+      (place R76 56750 -23750 front 270)
+      (place R77 53750 -23750 front 270)
+      (place R78 50750 -23750 front 270)
+      (place R79 58250 -23750 back 90)
+      (place R80 55250 -23750 back 90)
+      (place R81 52250 -23750 back 90)
+      (place R82 48250 -25000 back 270)
+      (place R83 45250 -25000 back 270)
+      (place R84 42250 -25000 back 270)
+      (place R85 39250 -25000 back 270)
+      (place R86 36250 -25000 back 270)
+      (place R87 33000 -25000 back 90)
+      (place R88 50500 -16750 back 90)
+      (place R89 49250 -16750 back 90)
+      (place R90 48000 -16750 back 90)
+      (place R91 46750 -16750 back 90)
+      (place R92 51750 -16750 back 90)
+      (place R93 58000 -16750 back 90)
+      (place C40 27000 -23000 back 180)
+      (place R110 27000 -21500 back 0)
+      (place C41 13500 -21500 back 90)
+      (place R111 27000 -26000 back 0)
+      (place R112 52250 -23750 front 90)
+    )
+    (component SOT23BEC_BC847
+      (place Q9 57750 -25750 front 0)
+      (place Q10 54750 -25750 front 0)
+      (place Q11 51750 -25750 front 0)
+    )
+    (component DO214AB
+      (place D9 23500 -14750 back 180)
+      (place D10 63250 -14500 back 180)
+      (place D11 62000 -24500 front 90)
+      (place D12 65000 -24500 front 90)
+      (place D17 23750 -41500 front 180)
+      (place D18 20000 -41500 front 180)
+      (place D19 23750 -44500 front 180)
+      (place D20 20000 -44500 front 180)
+      (place D21 12500 -44500 front 0)
+      (place D22 16250 -44500 front 0)
+      (place D23 12500 -41500 front 0)
+      (place D24 16250 -41500 front 0)
+      (place D48 62500 -41500 front 0)
+      (place D47 47000 -41500 front 0)
+      (place D46 58750 -41500 front 0)
+      (place D45 43250 -41500 front 0)
+      (place D44 62500 -44500 front 0)
+      (place D43 47000 -44500 front 0)
+      (place D42 58750 -44500 front 0)
+      (place D41 43250 -44500 front 0)
+      (place D40 66250 -44500 front 180)
+      (place D39 50750 -44500 front 180)
+      (place D38 70000 -44500 front 180)
+      (place D37 54500 -44500 front 180)
+      (place D36 66250 -41500 front 180)
+      (place D35 50750 -41500 front 180)
+      (place D34 70000 -41500 front 180)
+      (place D33 54500 -41500 front 180)
+      (place D32 31500 -41500 front 0)
+      (place D31 27750 -41500 front 0)
+      (place D30 31500 -44500 front 0)
+      (place D29 27750 -44500 front 0)
+      (place D28 35250 -44500 front 180)
+      (place D27 39000 -44500 front 180)
+      (place D26 35250 -41500 front 180)
+      (place D25 39000 -41500 front 180)
+      (place D50 68000 -24500 front 90)
+    )
+    (component LTV357NT
+      (place OK17 47500 -21500 front 90)
+      (place OK1 57250 -20750 front 270)
+      (place OK2 54250 -20750 front 270)
+      (place OK3 51250 -20750 front 270)
+      (place OK4 57250 -20750 back 90)
+      (place OK5 54250 -20750 back 90)
+      (place OK6 51250 -20750 back 90)
+      (place OK7 47500 -21500 back 90)
+      (place OK8 44500 -21500 back 90)
+      (place OK9 41500 -21500 back 90)
+      (place OK10 38500 -21500 back 90)
+      (place OK11 35500 -21500 back 90)
+      (place OK12 32500 -21500 back 90)
+      (place OK13 44500 -21500 front 90)
+      (place OK14 41500 -21500 front 90)
+      (place OK15 38500 -21500 front 90)
+      (place OK16 35500 -21500 front 90)
+    )
+    (component TO220_LM78xx_VERT_COOL
+      (place U1 24500 -12000 front 90)
+      (place U2 64000 -12000 front 90)
+    )
+    (component TO220_MOSFET_P_VERT_COOL
+      (place Q8 12050 -20900 front 180)
+    )
+    (component HZIP25
+      (place IC2 33500 -38500 front 0)
+      (place IC3 49000 -38500 front 0)
+      (place IC4 64500 -38500 front 0)
+      (place IC1 18000 -38500 front 0)
+    )
+    (component Bohrung_3.2mm
+      (place H2 71500 -11500 front 0)
+      (place H1 11500 -11500 front 0)
+      (place H4 11500 -47500 front 0)
+      (place H3 71500 -47500 front 0)
+      (place H5 41500 -29000 front 0)
+    )
+    (component "AKL230-02-1Side"
+      (place P2 15750 -13250 front 180)
+    )
+    (component "Centronics_36_Female-1Side"
+      (place P1 44250 -13500 front 180)
+    )
+    (component "AKL059-04-1Side"
+      (place P36 33250 -47250 back 0)
+      (place P37 48750 -47250 back 0)
+      (place P38 64250 -47250 back 0)
+      (place P6 18000 -47250 back 0)
+    )
+    (component "DIPS-DS06-1Side"
+      (place SW2 30000 -29500 front 0)
+      (place SW3 47000 -29500 front 0)
+      (place SW4 60500 -29500 front 0)
+      (place SW1 15250 -29750 front 0)
+    )
+    (component "LED_5mm_Vert-1Side"
+      (place D49 29500 -24500 front 90)
+      (place D6 16500 -25000 front 90)
+      (place D7 60000 -19500 front 90)
+      (place D8 23000 -20000 front 180)
+    )
+    (component "SIL-4G-1Side"
+      (place DC1 26000 -24500 front 0)
+    )
+    (component "R_2Watt_Horz_AKL101-1Side"
+      (place R9 14250 -35750 front 90)
+      (place R10 21750 -35750 front 90)
+      (place R75 68250 -35750 front 90)
+      (place R74 60750 -35750 front 90)
+      (place R73 52750 -35750 front 90)
+      (place R72 45250 -35750 front 90)
+      (place R71 37250 -35750 front 90)
+      (place R70 29750 -35750 front 90)
+    )
+    (component "C_8mm_Vert-1Side"
+      (place C17 18000 -35250 front 270)
+      (place C37 33500 -35250 front 270)
+      (place C38 49000 -35250 front 270)
+      (place C39 64250 -35250 front 270)
+    )
+    (component "RAD16mm-1Side"
+      (place C16 18000 -20000 front 270)
+    )
+    (component "connect-PAD-01-1Side"
+      (place +12V1 60750 -21500 front 0)
+      (place +24V1 18000 -15500 front 0)
+      (place Gnd1 16000 -15500 front 0)
+      (place VDD1 24000 -22000 front 0)
+      (place Vee1 19000 -26500 front 0)
+      (place Gnd4 22000 -22000 front 0)
+      (place Gnd3 19000 -24500 front 0)
+      (place Gnd2 59250 -21500 front 0)
+    )
+    (component "FUSIBLE_MINI_VERT-1Side"
+      (place F5 27750 -17500 front 180)
+      (place F6 67000 -18250 front 180)
+    )
+    (component "AKL059-06-1Side"
+      (place P40 71250 -18750 back 90)
+      (place P39 71250 -28000 back 90)
+    )
+    (component "PS25_ST_3PIN-1Side"
+      (place K1 62750 -20000 front 90)
+    )
+    (component "FUSIBLE_10mm_VERT-1Side"
+      (place F1 36500 -29500 front 0)
+      (place F2 22000 -29500 front 0)
+      (place F3 53500 -29500 front 180)
+      (place F4 67000 -29500 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "Kicad's PCBNEW")
+      (host_version "(20090216-final)")
+    )
+    (library_out 
+      (padstack "Via[0-1]_100:39.4_mil"
+        (shape
+          (circle Bestückungsseite 1000 0 0)
+        )
+        (shape
+          (circle Lötseite 1000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "N-000136"
+        (wire
+          (path Lötseite 100
+            16500 -24500
+            16500 -23150
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path Lötseite 240
+            64250 -34650
+            64250 -35243
+          )
+        )
+        (wire
+          (path Lötseite 240
+            65913 -35287
+            64294 -35287
+            64250 -35243
+          )
+        )
+        (wire
+          (path Lötseite 296
+            65913 -35287
+            66100 -35100
+            66750 -35100
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            65000 -36200
+            65913 -35287
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 240
+            65938 -38803
+            65320 -39421
+            63500 -39421
+          )
+        )
+        (wire
+          (path Lötseite 240
+            65938 -38500
+            65938 -38803
+          )
+        )
+        (wire
+          (path Lötseite 240
+            65938 -38803
+            66594 -39459
+            68000 -39459
+          )
+        )
+        (wire
+          (path Lötseite 240
+            68000 -38500
+            68000 -39459
+          )
+        )
+        (wire
+          (path Lötseite 240
+            63500 -39421
+            63500 -38263
+          )
+        )
+        (wire
+          (path Lötseite 240
+            61750 -41082
+            62457 -41082
+            63500 -40039
+            63500 -39421
+          )
+        )
+        (wire
+          (path Lötseite 296
+            65938 -38500
+            65650 -38500
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            66000 -38500
+            65938 -38500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 240
+            52500 -38500
+            52500 -39459
+          )
+        )
+        (wire
+          (path Bestückungsseite 296
+            64250 -48200
+            65500 -48200
+            65600 -48100
+            65600 -46450
+            65950 -46100
+            69000 -46100
+            69650 -45450
+            69650 -43600
+            69300 -43250
+            66650 -43250
+            66300 -42900
+            66300 -40200
+            66000 -39900
+            66000 -38500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            65014 -44500
+            65014 -45186
+            64250 -45950
+            64250 -48200
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 240
+            52500 -39459
+            56975 -39459
+            58068 -40552
+            58068 -45426
+            60842 -48200
+            64250 -48200
+          )
+        )
+        (wire
+          (path Lötseite 240
+            62850 -17500
+            62282 -17500
+          )
+        )
+        (wire
+          (path Lötseite 240
+            61650 -17834
+            61948 -17834
+            62282 -17500
+          )
+        )
+        (wire
+          (path Lötseite 240
+            61650 -17834
+            61650 -18168
+          )
+        )
+        (wire
+          (path Lötseite 240
+            61650 -17500
+            61650 -17834
+          )
+        )
+        (wire
+          (path Lötseite 240
+            61650 -18636
+            60786 -19500
+            59347 -19500
+            59250 -19597
+            59250 -21334
+          )
+        )
+        (wire
+          (path Lötseite 240
+            61650 -18168
+            61650 -18636
+          )
+        )
+        (wire
+          (path Lötseite 240
+            61650 -18636
+            62386 -18636
+            62750 -19000
+          )
+        )
+        (wire
+          (path Lötseite 240
+            57323 -24400
+            57582 -24400
+          )
+        )
+        (wire
+          (path Lötseite 240
+            55918 -24400
+            57323 -24400
+          )
+        )
+        (wire
+          (path Lötseite 240
+            59250 -21334
+            57392 -21334
+            57323 -21403
+            57323 -24400
+          )
+        )
+        (wire
+          (path Lötseite 240
+            59250 -21334
+            59250 -21500
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            51400 -25350
+            51400 -24902
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            51084 -24400
+            51084 -24586
+            51400 -24902
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            51084 -24400
+            51418 -24400
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            50750 -24400
+            51084 -24400
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            37000 -38500
+            37000 -27946
+            35292 -26238
+            34447 -26238
+            34378 -26169
+            34378 -25197
+            34704 -24871
+            35729 -24871
+            36250 -24350
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            37000 -38979
+            37000 -38500
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            36918 -24350
+            37440 -24872
+            38728 -24872
+            39250 -24350
+          )
+        )
+        (wire
+          (path Lötseite 240
+            32558 -39459
+            32558 -39842
+            31318 -41082
+            30750 -41082
+          )
+        )
+        (wire
+          (path Lötseite 240
+            32500 -37700
+            32500 -39344
+            32558 -39402
+            32558 -39459
+          )
+        )
+        (wire
+          (path Lötseite 240
+            32558 -39459
+            35000 -39459
+          )
+        )
+        (wire
+          (path Lötseite 240
+            30750 -41650
+            30750 -41082
+          )
+        )
+        (wire
+          (path Lötseite 296
+            32500 -37700
+            32500 -37400
+            31950 -36850
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 240
+            35000 -38500
+            35000 -39459
+          )
+        )
+        (wire
+          (path Lötseite 240
+            37000 -38500
+            37000 -39459
+          )
+        )
+        (wire
+          (path Lötseite 240
+            37000 -39459
+            35000 -39459
+          )
+        )
+        (wire
+          (path Lötseite 240
+            63500 -37700
+            63500 -38263
+          )
+        )
+        (wire
+          (path Lötseite 240
+            61750 -41650
+            61750 -41082
+          )
+        )
+        (wire
+          (path Lötseite 296
+            61750 -41650
+            60500 -41650
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 240
+            53750 -23878
+            56013 -23878
+            56082 -23947
+            56082 -24400
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            53750 -23941
+            53750 -23878
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            51418 -24400
+            51418 -23947
+            51487 -23878
+            53750 -23878
+          )
+        )
+        (wire
+          (path Lötseite 240
+            39250 -24350
+            37494 -24350
+            36872 -24972
+          )
+        )
+        (wire
+          (path Lötseite 240
+            42250 -24350
+            39250 -24350
+          )
+        )
+        (wire
+          (path Lötseite 240
+            36872 -24972
+            36250 -24350
+          )
+        )
+        (wire
+          (path Lötseite 240
+            33000 -26195
+            36803 -26195
+            36872 -26126
+            36872 -24972
+          )
+        )
+        (wire
+          (path Lötseite 240
+            33000 -26195
+            33000 -26218
+          )
+        )
+        (wire
+          (path Lötseite 240
+            33000 -26172
+            33000 -26195
+          )
+        )
+        (wire
+          (path Lötseite 296
+            33500 -34650
+            32300 -34650
+            32250 -34600
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 240
+            32250 -34600
+            31582 -34600
+          )
+        )
+        (wire
+          (path Lötseite 240
+            29275 -34225
+            31207 -34225
+            31582 -34600
+          )
+        )
+        (wire
+          (path Lötseite 296
+            29275 -34225
+            29750 -33750
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            31000 -36850
+            30600 -36450
+            29100 -36450
+            28800 -36150
+            28800 -34700
+            29275 -34225
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 240
+            24500 -24500
+            24500 -23482
+          )
+        )
+        (wire
+          (path Lötseite 240
+            22000 -22000
+            23482 -23482
+            24500 -23482
+          )
+        )
+        (wire
+          (path Lötseite 240
+            20705 -20704
+            22000 -22000
+          )
+        )
+        (wire
+          (path Lötseite 240
+            33000 -26109
+            33000 -26172
+          )
+        )
+        (wire
+          (path Lötseite 240
+            33000 -25650
+            33000 -26109
+          )
+        )
+        (wire
+          (path Lötseite 240
+            24500 -24500
+            24500 -25890
+            25697 -27087
+            32131 -27087
+            33000 -26218
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            48918 -24350
+            48968 -24400
+            50750 -24400
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            56750 -24400
+            56082 -24400
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            53750 -24400
+            53750 -23941
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            45250 -24350
+            45918 -24350
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            45918 -24350
+            46440 -24872
+            47728 -24872
+            48250 -24350
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            42918 -24350
+            43440 -24872
+            44728 -24872
+            45250 -24350
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            42250 -24350
+            42918 -24350
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            39918 -24350
+            40440 -24872
+            41728 -24872
+            42250 -24350
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            36250 -24350
+            36918 -24350
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            37000 -38979
+            37000 -39459
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            33002 -20747
+            32388 -20747
+            24500 -12859
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            64000 -12859
+            57130 -12859
+            56516 -12245
+            41504 -12245
+            33002 -20747
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            33002 -20747
+            33002 -21454
+            33586 -22038
+            36000 -22038
+          )
+        )
+        (wire
+          (path Lötseite 296
+            35000 -38500
+            34650 -38500
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 240
+            64000 -12000
+            64000 -12859
+          )
+        )
+        (wire
+          (path Lötseite 240
+            64000 -12859
+            62850 -14009
+            62850 -16250
+          )
+        )
+        (wire
+          (path Lötseite 240
+            48001 -39459
+            48001 -38263
+            48000 -38263
+          )
+        )
+        (wire
+          (path Lötseite 240
+            46250 -41082
+            46818 -41082
+            48001 -39899
+            48001 -39459
+          )
+        )
+        (wire
+          (path Lötseite 240
+            48001 -39459
+            50500 -39459
+          )
+        )
+        (wire
+          (path Lötseite 240
+            50500 -38500
+            50500 -39459
+          )
+        )
+        (wire
+          (path Lötseite 240
+            52500 -38500
+            52500 -39459
+          )
+        )
+        (wire
+          (path Lötseite 240
+            52500 -39459
+            50500 -39459
+          )
+        )
+        (wire
+          (path Lötseite 240
+            48000 -37700
+            48000 -38263
+          )
+        )
+        (wire
+          (path Lötseite 240
+            46250 -41650
+            46250 -41082
+          )
+        )
+        (wire
+          (path Lötseite 296
+            45000 -41650
+            46250 -41650
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 240
+            62850 -16250
+            62218 -16250
+          )
+        )
+        (wire
+          (path Lötseite 240
+            61650 -16250
+            62218 -16250
+          )
+        )
+        (wire
+          (path Lötseite 296
+            50500 -38500
+            50150 -38500
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 240
+            17058 -39459
+            17058 -39842
+            15818 -41082
+            15250 -41082
+          )
+        )
+        (wire
+          (path Lötseite 240
+            17000 -37700
+            17000 -39401
+            17058 -39459
+          )
+        )
+        (wire
+          (path Lötseite 240
+            17058 -39459
+            19500 -39459
+          )
+        )
+        (wire
+          (path Lötseite 240
+            15250 -41650
+            15250 -41082
+          )
+        )
+        (wire
+          (path Lötseite 296
+            17000 -37700
+            17000 -37300
+            16550 -36850
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 240
+            19500 -38500
+            19500 -39459
+          )
+        )
+        (wire
+          (path Lötseite 240
+            21500 -38500
+            21500 -39459
+          )
+        )
+        (wire
+          (path Lötseite 240
+            21500 -39459
+            19500 -39459
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            21500 -38500
+            21500 -39459
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            33250 -47950
+            33101 -48099
+            29651 -48099
+            27078 -45526
+            27078 -40559
+            25978 -39459
+            21500 -39459
+          )
+        )
+        (wire
+          (path Bestückungsseite 296
+            34014 -44500
+            34014 -45336
+            33250 -46100
+            33250 -47950
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            33250 -47950
+            33400 -48100
+            34600 -48100
+            34600 -46550
+            34900 -46250
+            37750 -46250
+            38500 -45500
+            38500 -43500
+            38300 -43300
+            35800 -43300
+            35350 -42850
+            35350 -40250
+            35000 -39900
+            35000 -38500
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 240
+            16750 -34600
+            16082 -34600
+          )
+        )
+        (wire
+          (path Lötseite 240
+            13825 -34175
+            15657 -34175
+            16082 -34600
+          )
+        )
+        (wire
+          (path Lötseite 296
+            13825 -34175
+            14250 -33750
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            15650 -36850
+            15250 -36450
+            13550 -36450
+            13400 -36300
+            13400 -34600
+            13825 -34175
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 240
+            48750 -48000
+            48654 -48096
+            45395 -48096
+            42557 -45258
+            42557 -40554
+            41462 -39459
+            37000 -39459
+          )
+        )
+        (wire
+          (path Bestückungsseite 296
+            49514 -44500
+            49514 -45386
+            48750 -46150
+            48750 -48000
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            48750 -48000
+            48900 -48150
+            49850 -48150
+            50150 -47850
+            50150 -46350
+            50400 -46100
+            53550 -46100
+            54050 -45600
+            54050 -43600
+            53800 -43350
+            51050 -43350
+            50750 -43050
+            50750 -40300
+            50500 -40050
+            50500 -38500
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 240
+            47750 -34600
+            47082 -34600
+          )
+        )
+        (wire
+          (path Lötseite 240
+            45250 -33750
+            45250 -34412
+          )
+        )
+        (wire
+          (path Lötseite 240
+            45250 -34412
+            45438 -34600
+            47082 -34600
+          )
+        )
+        (wire
+          (path Lötseite 240
+            40250 -40850
+            40918 -40850
+          )
+        )
+        (wire
+          (path Lötseite 240
+            45000 -41650
+            44332 -41650
+          )
+        )
+        (wire
+          (path Lötseite 240
+            44332 -41650
+            44054 -41372
+            41440 -41372
+            40918 -40850
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            39250 -24350
+            39250 -23782
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            39250 -24350
+            39918 -24350
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            36000 -22700
+            36000 -22038
+          )
+        )
+        (wire
+          (path Lötseite 296
+            59850 -36350
+            59700 -36200
+            59700 -34800
+            60750 -33750
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 240
+            39000 -22700
+            39000 -23532
+            39250 -23782
+          )
+        )
+        (wire
+          (path Lötseite 296
+            16750 -34600
+            17950 -34600
+            18000 -34650
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            47750 -34600
+            48950 -34600
+            49000 -34650
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            19500 -38500
+            19150 -38500
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            63500 -37700
+            63500 -37250
+            63100 -36850
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            14000 -41650
+            15250 -41650
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            29500 -41650
+            30750 -41650
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 240
+            24500 -12000
+            24500 -12859
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            64000 -12000
+            64000 -12859
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            36000 -22700
+            36000 -23361
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            36250 -24350
+            36250 -23611
+            36000 -23361
+          )
+        )
+        (wire
+          (path Lötseite 240
+            23500 -16850
+            22668 -16850
+          )
+        )
+        (wire
+          (path Lötseite 240
+            22000 -16850
+            22668 -16850
+          )
+        )
+        (wire
+          (path Lötseite 240
+            23500 -16282
+            23500 -16850
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            56952 -25350
+            56750 -25148
+            56750 -24968
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            56750 -24400
+            56750 -24968
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            57400 -25350
+            56952 -25350
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            42000 -23361
+            42250 -23611
+            42250 -24350
+          )
+        )
+        (wire
+          (path Lötseite 118
+            34650 -38500
+            34000 -37850
+            34000 -36250
+            35150 -35100
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 240
+            61650 -17500
+            61650 -16250
+          )
+        )
+        (wire
+          (path Lötseite 240
+            58250 -24400
+            57582 -24400
+          )
+        )
+        (wire
+          (path Lötseite 240
+            51582 -24400
+            51532 -24350
+            48918 -24350
+          )
+        )
+        (wire
+          (path Lötseite 240
+            52250 -24400
+            55250 -24400
+          )
+        )
+        (wire
+          (path Lötseite 240
+            51916 -24400
+            52250 -24400
+          )
+        )
+        (wire
+          (path Lötseite 240
+            51916 -24400
+            51582 -24400
+          )
+        )
+        (wire
+          (path Lötseite 240
+            55250 -24400
+            55918 -24400
+          )
+        )
+        (wire
+          (path Lötseite 240
+            48250 -24350
+            48918 -24350
+          )
+        )
+        (wire
+          (path Lötseite 118
+            50150 -38500
+            49500 -37850
+            49500 -36250
+            50650 -35100
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 240
+            45000 -22700
+            45000 -23361
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            45250 -24350
+            45250 -23611
+            45000 -23361
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            48250 -24350
+            48918 -24350
+          )
+        )
+        (wire
+          (path Lötseite 118
+            19150 -38500
+            18500 -37850
+            18500 -36250
+            19650 -35100
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 240
+            20500 -17650
+            20500 -20500
+            20705 -20704
+          )
+        )
+        (wire
+          (path Lötseite 240
+            20705 -20704
+            19134 -22275
+          )
+        )
+        (wire
+          (path Lötseite 240
+            19134 -22275
+            18859 -22000
+          )
+        )
+        (wire
+          (path Lötseite 240
+            19000 -24500
+            19134 -24366
+            19134 -22275
+          )
+        )
+        (wire
+          (path Lötseite 240
+            18000 -22000
+            18859 -22000
+          )
+        )
+        (wire
+          (path Lötseite 240
+            20500 -17366
+            20500 -17650
+          )
+        )
+        (wire
+          (path Lötseite 240
+            20500 -17366
+            20500 -17082
+          )
+        )
+        (wire
+          (path Lötseite 240
+            22000 -16850
+            21332 -16850
+          )
+        )
+        (wire
+          (path Lötseite 240
+            20500 -17082
+            21100 -17082
+            21332 -16850
+          )
+        )
+        (wire
+          (path Lötseite 240
+            16150 -20500
+            16150 -21168
+          )
+        )
+        (wire
+          (path Lötseite 240
+            16500 -21850
+            16500 -21282
+          )
+        )
+        (wire
+          (path Lötseite 240
+            16150 -21168
+            16386 -21168
+            16500 -21282
+          )
+        )
+        (wire
+          (path Lötseite 240
+            16000 -15500
+            16150 -15650
+            16150 -20500
+          )
+        )
+        (wire
+          (path Lötseite 240
+            24500 -12859
+            23500 -13859
+            23500 -16282
+          )
+        )
+        (wire
+          (path Lötseite 240
+            23500 -16282
+            25000 -16282
+          )
+        )
+        (wire
+          (path Lötseite 240
+            25000 -16850
+            25000 -16282
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            54400 -25350
+            53952 -25350
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            53750 -24400
+            53750 -24968
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            53750 -24968
+            53952 -25170
+            53952 -25350
+          )
+        )
+        (wire
+          (path Lötseite 240
+            42250 -24350
+            45250 -24350
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            48250 -24350
+            48250 -23782
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            48000 -22700
+            48000 -23532
+            48250 -23782
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            42000 -22700
+            42000 -23361
+          )
+        )
+        (wire
+          (path Lötseite 240
+            24500 -12000
+            24500 -12859
+          )
+        )
+        (wire
+          (path Lötseite 240
+            16000 -15500
+            16000 -13732
+            15518 -13250
+          )
+        )
+        (wire
+          (path Lötseite 240
+            18000 -22000
+            17318 -22000
+            17168 -21850
+          )
+        )
+        (wire
+          (path Lötseite 240
+            16500 -21850
+            17168 -21850
+          )
+        )
+        (wire
+          (path Lötseite 240
+            14750 -13250
+            15518 -13250
+          )
+        )
+        (wire
+          (path Bestückungsseite 296
+            32736 -41500
+            34014 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            32736 -44500
+            32736 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            48236 -41500
+            49514 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            48236 -44500
+            48236 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            65014 -44500
+            63736 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            65014 -41500
+            65014 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            63736 -41500
+            65014 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            49514 -44500
+            48236 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            34014 -44500
+            32736 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            18764 -41500
+            17486 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            18764 -44500
+            18764 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            17486 -44500
+            18764 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            18764 -44500
+            18764 -45586
+            18000 -46350
+            18000 -47800
+            18350 -48150
+            19050 -48150
+            19400 -47800
+            19400 -46550
+            19600 -46350
+            22450 -46350
+            23250 -45550
+            23250 -43350
+            22850 -42950
+            21150 -42950
+            20050 -41850
+            20050 -40150
+            19500 -39600
+            19500 -38500
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            64250 -34650
+            63050 -34650
+            63000 -34600
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            19650 -35100
+            20250 -35100
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            20250 -35100
+            20400 -35100
+            21750 -33750
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 118
+            16550 -36850
+            15650 -36850
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            35150 -35100
+            35750 -35100
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            35750 -35100
+            35900 -35100
+            37250 -33750
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 118
+            31950 -36850
+            31000 -36850
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            50650 -35100
+            51250 -35100
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            51250 -35100
+            51400 -35100
+            52750 -33750
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            48000 -37700
+            48000 -37400
+            47450 -36850
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 118
+            47450 -36850
+            46400 -36850
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            46400 -36850
+            45950 -36400
+            44450 -36400
+            44250 -36200
+            44250 -34750
+            45250 -33750
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 118
+            65650 -38500
+            65000 -37850
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 198
+            65000 -37850
+            65000 -36200
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            66750 -35100
+            66900 -35100
+            68250 -33750
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 118
+            63100 -36850
+            61850 -36850
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 198
+            61850 -36850
+            61350 -36350
+            59850 -36350
+          )
+          (type protect)
+        )
+      )
+      (net /LIM_A
+        (wire
+          (path Bestückungsseite 100
+            35000 -25650
+            36250 -25650
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            36250 -25650
+            36848 -25650
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            71250 -31445
+            45557 -31445
+            40214 -26102
+            37300 -26102
+            36848 -25650
+          )
+        )
+      )
+      (net VDD
+        (wire
+          (path Lötseite 160
+            42022 -30478
+            44500 -28000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            42022 -40300
+            42022 -30478
+          )
+        )
+        (wire
+          (path Lötseite 160
+            42022 -30478
+            38528 -30478
+            36885 -28835
+            33335 -28835
+            32500 -28000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            47000 -22700
+            47000 -22124
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            57750 -21352
+            63883 -15219
+            69976 -15219
+            70466 -14729
+            72067 -14729
+            72331 -14993
+            72331 -24292
+            72068 -24555
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            71250 -24555
+            72068 -24555
+          )
+        )
+        (wire
+          (path Lötseite 160
+            42022 -40300
+            42000 -40322
+          )
+        )
+        (wire
+          (path Lötseite 160
+            45000 -40300
+            42022 -40300
+          )
+        )
+        (wire
+          (path Lötseite 160
+            31500 -28000
+            32500 -28000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            44500 -28000
+            45500 -28000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            32000 -23321
+            32000 -23531
+            29871 -25660
+            29750 -25660
+            28828 -26582
+            25912 -26582
+            25500 -26170
+            25500 -24500
+          )
+        )
+        (wire
+          (path Lötseite 160
+            27412 -18150
+            25628 -18150
+          )
+        )
+        (wire
+          (path Lötseite 160
+            27750 -18500
+            27750 -18488
+            27412 -18150
+          )
+        )
+        (wire
+          (path Lötseite 160
+            12750 -28250
+            11277 -26777
+            11277 -15372
+            15422 -11227
+            26030 -11227
+            28432 -13629
+            28432 -17130
+            27412 -18150
+          )
+        )
+        (wire
+          (path Lötseite 160
+            12750 -28250
+            11376 -29624
+            11376 -38663
+            12996 -40283
+            14067 -40283
+          )
+        )
+        (wire
+          (path Lötseite 160
+            49500 -28000
+            50936 -29436
+            55423 -29436
+          )
+        )
+        (wire
+          (path Lötseite 160
+            48500 -28000
+            49500 -28000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            55423 -29436
+            56564 -29436
+            58000 -28000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            60500 -40300
+            58941 -40300
+            55423 -36782
+            55423 -29436
+          )
+        )
+        (wire
+          (path Lötseite 160
+            13750 -28250
+            12750 -28250
+          )
+        )
+        (wire
+          (path Lötseite 296
+            14067 -40283
+            14000 -40350
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            14500 -39850
+            14067 -40283
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 160
+            26921 -28579
+            26921 -38612
+            28559 -40250
+            29500 -40250
+          )
+        )
+        (wire
+          (path Lötseite 160
+            27500 -28000
+            26921 -28579
+          )
+        )
+        (wire
+          (path Lötseite 160
+            26921 -28579
+            18079 -28579
+            17750 -28250
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            61000 -38500
+            61000 -34820
+            63328 -32492
+            71284 -32492
+            72068 -31708
+            72068 -24555
+          )
+        )
+        (wire
+          (path Lötseite 160
+            25000 -18150
+            25628 -18150
+          )
+        )
+        (wire
+          (path Lötseite 160
+            44000 -22124
+            47000 -22124
+          )
+        )
+        (wire
+          (path Lötseite 160
+            44000 -22167
+            44000 -22124
+          )
+        )
+        (wire
+          (path Lötseite 160
+            41000 -22124
+            44000 -22124
+          )
+        )
+        (wire
+          (path Lötseite 160
+            41000 -22124
+            41000 -22078
+          )
+        )
+        (wire
+          (path Lötseite 160
+            41000 -22167
+            41000 -22124
+          )
+        )
+        (wire
+          (path Lötseite 160
+            41000 -22700
+            41000 -22167
+          )
+        )
+        (wire
+          (path Lötseite 160
+            38000 -22078
+            41000 -22078
+          )
+        )
+        (wire
+          (path Lötseite 160
+            35000 -22078
+            38000 -22078
+          )
+        )
+        (wire
+          (path Lötseite 160
+            35000 -22700
+            35000 -22078
+          )
+        )
+        (wire
+          (path Lötseite 160
+            32000 -22078
+            35000 -22078
+          )
+        )
+        (wire
+          (path Lötseite 160
+            38000 -22124
+            38000 -22078
+          )
+        )
+        (wire
+          (path Lötseite 160
+            44000 -22700
+            44000 -22167
+          )
+        )
+        (wire
+          (path Lötseite 160
+            47000 -22124
+            49968 -22124
+            50415 -22571
+            50750 -22571
+          )
+        )
+        (wire
+          (path Lötseite 160
+            50750 -21950
+            50750 -22571
+          )
+        )
+        (wire
+          (path Lötseite 160
+            28500 -28000
+            27500 -28000
+          )
+        )
+        (wire
+          (path Lötseite 296
+            29500 -40250
+            30000 -39750
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            29500 -40350
+            29500 -40250
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            60500 -40300
+            60500 -40250
+            61000 -39750
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            60500 -40350
+            60500 -40300
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 160
+            56750 -21950
+            56750 -21328
+          )
+        )
+        (wire
+          (path Lötseite 160
+            53750 -21328
+            56750 -21328
+          )
+        )
+        (wire
+          (path Lötseite 160
+            50750 -21950
+            51372 -21328
+            53750 -21328
+          )
+        )
+        (wire
+          (path Lötseite 160
+            53750 -21950
+            53750 -21328
+          )
+        )
+        (wire
+          (path Lötseite 160
+            38000 -22167
+            38000 -22124
+          )
+        )
+        (wire
+          (path Lötseite 160
+            38000 -22700
+            38000 -22167
+          )
+        )
+        (wire
+          (path Lötseite 160
+            24000 -22000
+            25500 -23500
+            25500 -24500
+          )
+        )
+        (wire
+          (path Lötseite 160
+            23500 -20728
+            24000 -21228
+            24000 -22000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            16750 -28250
+            17750 -28250
+          )
+        )
+        (wire
+          (path Lötseite 296
+            14500 -38500
+            14500 -39850
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            61000 -39750
+            61000 -38500
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            30000 -39750
+            30000 -38500
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 160
+            42000 -40850
+            42000 -40322
+          )
+        )
+        (wire
+          (path Lötseite 296
+            45000 -40300
+            45000 -40250
+            45500 -39750
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            45000 -40350
+            45000 -40300
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 160
+            51750 -21950
+            51750 -21329
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            51750 -21329
+            54750 -21329
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            54750 -21950
+            54750 -21329
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            57750 -21352
+            54773 -21352
+            54750 -21329
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            57750 -21375
+            57750 -21352
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            57750 -21418
+            57750 -21375
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            57750 -21950
+            57750 -21418
+          )
+        )
+        (wire
+          (path Lötseite 160
+            32000 -22700
+            32000 -23321
+          )
+        )
+        (wire
+          (path Lötseite 160
+            58000 -28000
+            59000 -28000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            23500 -20000
+            23500 -20728
+          )
+        )
+        (wire
+          (path Lötseite 160
+            23500 -20000
+            23500 -18150
+          )
+        )
+        (wire
+          (path Lötseite 160
+            46500 -28000
+            47500 -28000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            45500 -28000
+            46500 -28000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            25000 -18150
+            23500 -18150
+          )
+        )
+        (wire
+          (path Lötseite 160
+            32000 -22698
+            32000 -22700
+          )
+        )
+        (wire
+          (path Lötseite 160
+            32000 -22698
+            32000 -22078
+          )
+        )
+        (wire
+          (path Lötseite 160
+            30500 -28000
+            31500 -28000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            29500 -28000
+            30500 -28000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            28500 -28000
+            29500 -28000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            47500 -28000
+            48500 -28000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            62000 -28000
+            63000 -28000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            61000 -28000
+            62000 -28000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            60000 -28000
+            61000 -28000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            59000 -28000
+            60000 -28000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            15750 -28250
+            16750 -28250
+          )
+        )
+        (wire
+          (path Lötseite 160
+            14750 -28250
+            15750 -28250
+          )
+        )
+        (wire
+          (path Lötseite 160
+            13750 -28250
+            14750 -28250
+          )
+        )
+        (wire
+          (path Lötseite 296
+            15250 -40350
+            15000 -40350
+            14500 -39850
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            30750 -40350
+            30600 -40350
+            30000 -39750
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            45500 -39750
+            45500 -38500
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            46250 -40350
+            46100 -40350
+            45500 -39750
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            61750 -40350
+            61600 -40350
+            61000 -39750
+          )
+          (type protect)
+        )
+      )
+      (net "N-000150"
+        (wire
+          (path Lötseite 100
+            68500 -37700
+            68500 -39382
+            65778 -42104
+            57037 -42104
+            54072 -39139
+            54072 -38422
+            53441 -37791
+            53000 -37791
+          )
+        )
+        (wire
+          (path Lötseite 100
+            53000 -37791
+            53000 -37700
+          )
+        )
+        (wire
+          (path Lötseite 100
+            42000 -42150
+            50323 -42150
+            53000 -39473
+            53000 -37791
+          )
+        )
+        (wire
+          (path Lötseite 296
+            40250 -42150
+            42000 -42150
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 100
+            37528 -37943
+            37528 -39379
+            34805 -42102
+            25843 -42102
+            23056 -39315
+            23056 -38406
+            22350 -37700
+            22000 -37700
+          )
+        )
+        (wire
+          (path Lötseite 100
+            37528 -37943
+            38093 -37943
+            38572 -38422
+            38572 -40215
+            40009 -41652
+            40250 -41652
+          )
+        )
+        (wire
+          (path Lötseite 100
+            37528 -37943
+            37528 -37728
+            37500 -37700
+          )
+        )
+        (wire
+          (path Lötseite 100
+            40250 -42150
+            40250 -41652
+          )
+        )
+      )
+      (net "N-000137"
+        (wire
+          (path Lötseite 100
+            60000 -19000
+            60000 -18527
+          )
+        )
+        (wire
+          (path Lötseite 100
+            60000 -18527
+            60350 -18177
+            60350 -17500
+          )
+        )
+      )
+      (net "N-000021"
+        (wire
+          (path Lötseite 296
+            21000 -37700
+            21000 -37150
+            20250 -36400
+          )
+          (type protect)
+        )
+      )
+      (net +12V
+        (wire
+          (path Bestückungsseite 160
+            69015 -25834
+            69015 -25501
+            72069 -22447
+            72069 -20817
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            71250 -20817
+            72069 -20817
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            68000 -25834
+            69015 -25834
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            71250 -15305
+            72068 -15305
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            72046 -18061
+            72046 -15327
+            72068 -15305
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            72069 -20817
+            72046 -20794
+            72046 -18061
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            68000 -25834
+            65000 -25834
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            72023 -18061
+            72046 -18061
+          )
+        )
+        (wire
+          (path Lötseite 160
+            64150 -18600
+            64150 -17500
+          )
+        )
+        (wire
+          (path Lötseite 160
+            62750 -20000
+            64150 -18600
+          )
+        )
+        (wire
+          (path Lötseite 160
+            67000 -19250
+            64800 -19250
+            64150 -18600
+          )
+        )
+        (wire
+          (path Lötseite 160
+            69747 -18499
+            68996 -19250
+            67000 -19250
+          )
+        )
+        (wire
+          (path Lötseite 160
+            61203 -20475
+            61678 -20000
+            62750 -20000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            61203 -20475
+            60728 -20000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            61203 -20475
+            61203 -21047
+            60750 -21500
+          )
+        )
+        (wire
+          (path Lötseite 160
+            60000 -20000
+            60728 -20000
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            71250 -18061
+            70431 -18061
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            69747 -18499
+            69993 -18499
+            70431 -18061
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 69747 -18499
+        )
+        (wire
+          (path Bestückungsseite 160
+            65000 -25834
+            62000 -25834
+          )
+        )
+        (wire
+          (path Lötseite 160
+            64150 -17500
+            64150 -16250
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            71980 -18061
+            72023 -18061
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            71250 -18061
+            71980 -18061
+          )
+        )
+      )
+      (net +24V
+        (wire
+          (path Lötseite 240
+            12050 -20900
+            12909 -20900
+          )
+        )
+        (wire
+          (path Lötseite 240
+            12909 -20900
+            12959 -20850
+            13500 -20850
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            63000 -12000
+            63000 -11141
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            23500 -11912
+            24271 -11141
+            63000 -11141
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            12050 -20900
+            14512 -20900
+            23500 -11912
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            23500 -12000
+            23500 -11912
+          )
+        )
+        (wire
+          (path Lötseite 240
+            63000 -12000
+            63000 -12859
+          )
+        )
+        (wire
+          (path Lötseite 240
+            63000 -12859
+            61916 -13943
+            61916 -13972
+          )
+        )
+        (wire
+          (path Lötseite 240
+            20500 -16350
+            20500 -15782
+          )
+        )
+        (wire
+          (path Lötseite 240
+            22166 -14750
+            21504 -14750
+          )
+        )
+        (wire
+          (path Lötseite 240
+            21504 -14750
+            21504 -14778
+            20500 -15782
+          )
+        )
+        (wire
+          (path Lötseite 240
+            22166 -14222
+            22166 -14750
+          )
+        )
+        (wire
+          (path Lötseite 240
+            22166 -14222
+            22166 -13695
+          )
+        )
+        (wire
+          (path Lötseite 240
+            18000 -16350
+            18000 -18000
+          )
+        )
+        (wire
+          (path Lötseite 240
+            18000 -15500
+            18000 -16350
+          )
+        )
+        (wire
+          (path Lötseite 240
+            18000 -16350
+            19832 -16350
+          )
+        )
+        (wire
+          (path Lötseite 240
+            20500 -16350
+            19832 -16350
+          )
+        )
+        (wire
+          (path Lötseite 240
+            16750 -14306
+            16806 -14306
+            18000 -15500
+          )
+        )
+        (wire
+          (path Lötseite 240
+            61916 -13972
+            60350 -15538
+            60350 -16250
+          )
+        )
+        (wire
+          (path Lötseite 240
+            61916 -14500
+            61916 -13972
+          )
+        )
+        (wire
+          (path Lötseite 240
+            23500 -12000
+            23500 -12859
+          )
+        )
+        (wire
+          (path Lötseite 240
+            23500 -12859
+            22664 -13695
+            22166 -13695
+          )
+        )
+        (wire
+          (path Lötseite 240
+            16750 -13250
+            16750 -14306
+          )
+        )
+      )
+      (net "N-000002"
+        (wire
+          (path Bestückungsseite 100
+            55100 -25350
+            55100 -24972
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            55250 -24400
+            55250 -24898
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            55100 -24972
+            55176 -24972
+            55250 -24898
+          )
+        )
+      )
+      (net /COOL
+        (wire
+          (path Bestückungsseite 100
+            53750 -23100
+            54652 -23100
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            55250 -23100
+            54652 -23100
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            53750 -23100
+            53750 -21950
+          )
+        )
+      )
+      (net "N-000020"
+        (wire
+          (path Bestückungsseite 100
+            58100 -25350
+            58100 -24972
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            58250 -24400
+            58250 -24898
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            58100 -24972
+            58176 -24972
+            58250 -24898
+          )
+        )
+      )
+      (net /SPIN
+        (wire
+          (path Bestückungsseite 100
+            56750 -21950
+            56750 -23100
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            56750 -23100
+            57652 -23100
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            58250 -23100
+            57652 -23100
+          )
+        )
+      )
+      (net "N-000138"
+        (wire
+          (path Lötseite 100
+            22000 -18150
+            22000 -18648
+          )
+        )
+        (wire
+          (path Lötseite 100
+            22500 -20000
+            22027 -20000
+          )
+        )
+        (wire
+          (path Lötseite 100
+            22027 -20000
+            22027 -18675
+            22000 -18648
+          )
+        )
+      )
+      (net /LIM_Z
+        (wire
+          (path Bestückungsseite 100
+            71250 -30067
+            44464 -30067
+            40047 -25650
+            39848 -25650
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            39250 -25650
+            39848 -25650
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            38000 -25650
+            39250 -25650
+          )
+        )
+      )
+      (net /LIM_Y
+        (wire
+          (path Bestückungsseite 100
+            70461 -28689
+            45887 -28689
+            42848 -25650
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            41000 -25650
+            42250 -25650
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            42250 -25650
+            42848 -25650
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            71250 -28689
+            70461 -28689
+          )
+        )
+      )
+      (net /LIM_X
+        (wire
+          (path Bestückungsseite 100
+            71250 -27311
+            70461 -27311
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            70461 -27311
+            46662 -27311
+            45250 -25899
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            44000 -25650
+            44598 -25650
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            45250 -25899
+            44847 -25899
+            44598 -25650
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            45250 -25650
+            45250 -25899
+          )
+        )
+      )
+      (net /Probe
+        (wire
+          (path Bestückungsseite 100
+            70461 -25933
+            69348 -27046
+            49397 -27046
+            48250 -25899
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            71250 -25933
+            70461 -25933
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            47000 -25650
+            47598 -25650
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            48250 -25899
+            47847 -25899
+            47598 -25650
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            48250 -25650
+            48250 -25899
+          )
+        )
+      )
+      (net "N-000135"
+        (wire
+          (path Lötseite 100
+            14850 -20500
+            14850 -21098
+          )
+        )
+        (wire
+          (path Lötseite 100
+            14650 -23500
+            14650 -21298
+            14850 -21098
+          )
+        )
+      )
+      (net "N-000008"
+        (wire
+          (path Lötseite 100
+            13201 -22150
+            13350 -22299
+            13350 -23500
+          )
+        )
+        (wire
+          (path Lötseite 100
+            13201 -22150
+            12902 -22150
+          )
+        )
+        (wire
+          (path Lötseite 100
+            13500 -22150
+            13201 -22150
+          )
+        )
+        (wire
+          (path Lötseite 100
+            12050 -21900
+            12839 -21900
+          )
+        )
+        (wire
+          (path Lötseite 100
+            12839 -21900
+            12839 -22087
+            12902 -22150
+          )
+        )
+      )
+      (net "N-000022"
+        (wire
+          (path Lötseite 240
+            19217 -34446
+            22000 -31663
+            22000 -31500
+          )
+        )
+        (wire
+          (path Lötseite 240
+            18000 -35257
+            18536 -35257
+            19217 -34576
+            19217 -34446
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            19217 -36277
+            19217 -34446
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            19217 -36277
+            20431 -36277
+            20500 -36346
+            20500 -38500
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            15500 -38500
+            15500 -36827
+            16050 -36277
+            19217 -36277
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 19217 -34446
+        )
+        (wire
+          (path Lötseite 240
+            18000 -35850
+            18000 -35257
+          )
+        )
+        (wire
+          (path Lötseite 296
+            18000 -35850
+            16800 -35850
+            16750 -35900
+          )
+          (type protect)
+        )
+      )
+      (net "N-000029"
+        (wire
+          (path Lötseite 296
+            67500 -37700
+            67500 -37150
+            66750 -36400
+          )
+          (type protect)
+        )
+      )
+      (net "N-000026"
+        (wire
+          (path Lötseite 296
+            52000 -37700
+            52000 -37150
+            51250 -36400
+          )
+          (type protect)
+        )
+      )
+      (net "N-000024"
+        (wire
+          (path Lötseite 296
+            36500 -37700
+            36500 -37150
+            35750 -36400
+          )
+          (type protect)
+        )
+      )
+      (net "N-000030"
+        (wire
+          (path Lötseite 240
+            62345 -35101
+            62345 -34147
+            64992 -31500
+            67000 -31500
+          )
+        )
+        (wire
+          (path Lötseite 240
+            63599 -35900
+            63144 -35900
+            62345 -35101
+          )
+        )
+        (wire
+          (path Lötseite 240
+            62345 -35101
+            61981 -35101
+            61970 -35112
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            61970 -35112
+            61970 -36552
+            62172 -36754
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            62172 -36754
+            62000 -36926
+            62000 -38500
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            67000 -38500
+            67000 -36823
+            66931 -36754
+            62172 -36754
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 61970 -35112
+        )
+        (wire
+          (path Lötseite 296
+            63599 -35900
+            64200 -35900
+            64250 -35850
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            63000 -35900
+            63599 -35900
+          )
+          (type protect)
+        )
+      )
+      (net "N-000027"
+        (wire
+          (path Bestückungsseite 240
+            50766 -36739
+            51431 -36739
+            51500 -36808
+            51500 -38500
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            46500 -38500
+            46500 -36808
+            46569 -36739
+            50766 -36739
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            50766 -36739
+            50766 -34171
+          )
+        )
+        (wire
+          (path Lötseite 240
+            49000 -35257
+            49680 -35257
+            50766 -34171
+          )
+        )
+        (wire
+          (path Lötseite 240
+            53500 -31500
+            50829 -34171
+            50766 -34171
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 50766 -34171
+        )
+        (wire
+          (path Lötseite 240
+            49000 -35850
+            49000 -35257
+          )
+        )
+        (wire
+          (path Lötseite 296
+            49000 -35850
+            47800 -35850
+            47750 -35900
+          )
+          (type protect)
+        )
+      )
+      (net "N-000025"
+        (wire
+          (path Lötseite 240
+            35040 -34232
+            36500 -32772
+            36500 -31500
+          )
+        )
+        (wire
+          (path Lötseite 240
+            33500 -35257
+            34093 -35257
+            35040 -34310
+            35040 -34232
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            35040 -34232
+            35040 -36037
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            35040 -36037
+            31898 -36037
+            31000 -36935
+            31000 -38500
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            36000 -38500
+            36000 -36997
+            35040 -36037
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 35040 -34232
+        )
+        (wire
+          (path Lötseite 240
+            33500 -35850
+            33500 -35257
+          )
+        )
+        (wire
+          (path Lötseite 296
+            32250 -35900
+            33450 -35900
+            33500 -35850
+          )
+          (type protect)
+        )
+      )
+      (net /REL_SPIN
+        (wire
+          (path Bestückungsseite 160
+            62000 -23264
+            62000 -22642
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            71250 -16683
+            67959 -16683
+            62000 -22642
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            57750 -26150
+            58158 -26150
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            62000 -23264
+            60984 -23264
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            60984 -23264
+            58158 -26090
+            58158 -26150
+          )
+        )
+      )
+      (net /REL_COOL
+        (wire
+          (path Bestückungsseite 160
+            65000 -23264
+            65000 -22642
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            71250 -19439
+            68203 -19439
+            65000 -22642
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            65000 -23885
+            61181 -23885
+            58554 -26512
+            55520 -26512
+            55158 -26150
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            54750 -26150
+            55158 -26150
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            65000 -23264
+            65000 -23885
+          )
+        )
+      )
+      (net "N-000003"
+        (wire
+          (path Lötseite 160
+            25500 -14750
+            24736 -14750
+          )
+        )
+        (wire
+          (path Lötseite 160
+            27750 -16500
+            26000 -14750
+            25500 -14750
+          )
+        )
+        (wire
+          (path Lötseite 160
+            25500 -12818
+            25500 -14750
+          )
+        )
+        (wire
+          (path Lötseite 160
+            25500 -12000
+            25500 -12818
+          )
+        )
+      )
+      (net "N-000023"
+        (wire
+          (path Lötseite 160
+            67000 -17250
+            67000 -16494
+            65006 -14500
+          )
+        )
+        (wire
+          (path Lötseite 160
+            65000 -12000
+            65000 -12818
+          )
+        )
+        (wire
+          (path Lötseite 160
+            64486 -14500
+            65006 -14500
+          )
+        )
+        (wire
+          (path Lötseite 160
+            65000 -12818
+            65006 -12824
+            65006 -14500
+          )
+        )
+      )
+      (net /X_BM
+        (wire
+          (path Bestückungsseite 296
+            21334 -41500
+            22514 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            21334 -41500
+            21334 -40534
+            20000 -39200
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 198
+            20000 -39200
+            20000 -37700
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            20067 -47250
+            22400 -47250
+            23700 -45950
+            23700 -42686
+            22514 -41500
+          )
+          (type protect)
+        )
+      )
+      (net VEE
+        (wire
+          (path Lötseite 240
+            53500 -27425
+            66925 -27425
+            67000 -27500
+          )
+        )
+        (wire
+          (path Lötseite 240
+            36500 -27500
+            37151 -28151
+            39820 -28151
+            40546 -27425
+            53500 -27425
+          )
+        )
+        (wire
+          (path Lötseite 240
+            53500 -27425
+            53500 -27500
+          )
+        )
+        (wire
+          (path Lötseite 240
+            22000 -27500
+            22072 -27428
+            34018 -27428
+            34271 -27681
+            36319 -27681
+            36500 -27500
+          )
+        )
+        (wire
+          (path Lötseite 240
+            19000 -26500
+            20000 -27500
+            22000 -27500
+          )
+        )
+        (wire
+          (path Lötseite 240
+            12050 -19900
+            14087 -19900
+            14128 -19941
+            14128 -24047
+            15581 -25500
+            16500 -25500
+          )
+        )
+        (wire
+          (path Lötseite 240
+            16500 -25500
+            18000 -25500
+            19000 -26500
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            12050 -19900
+            11191 -19900
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            11166 -41500
+            11166 -19925
+            11191 -19900
+          )
+        )
+        (wire
+          (path Bestückungsseite 296
+            11166 -44500
+            11166 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 240
+            56659 -44500
+            60837 -48678
+            68212 -48678
+            71334 -45556
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            71334 -44500
+            71334 -45556
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            56659 -44500
+            52621 -48538
+            44899 -48538
+            41916 -45555
+          )
+        )
+        (wire
+          (path Bestückungsseite 296
+            57416 -41500
+            55834 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 240
+            25084 -45556
+            28206 -48678
+            37212 -48678
+            40334 -45556
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            40334 -44500
+            40334 -45556
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            11828 -44500
+            11828 -45162
+            15206 -48540
+            22100 -48540
+            25084 -45556
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            25084 -44500
+            25084 -45556
+          )
+        )
+        (wire
+          (path Bestückungsseite 240
+            11166 -44500
+            11828 -44500
+          )
+        )
+        (wire
+          (path Bestückungsseite 296
+            41916 -44500
+            40334 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 240
+            41916 -44500
+            41916 -45555
+          )
+        )
+        (wire
+          (path Bestückungsseite 296
+            56659 -44500
+            57416 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            55834 -44500
+            56659 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            71334 -41500
+            71334 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            26416 -44500
+            25084 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            26416 -41500
+            26416 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            41916 -41500
+            41916 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            57416 -44500
+            57416 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            40334 -41500
+            41916 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            25084 -41500
+            26416 -41500
+          )
+          (type protect)
+        )
+      )
+      (net /X_BP
+        (wire
+          (path Bestückungsseite 296
+            21334 -44500
+            22514 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            18689 -47250
+            18689 -46461
+            19150 -46000
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 198
+            19150 -46000
+            21200 -46000
+            21334 -45866
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            21334 -45866
+            21334 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            21334 -44500
+            21334 -44134
+            19550 -42350
+            19550 -40550
+            18500 -39500
+            18500 -38500
+          )
+          (type protect)
+        )
+      )
+      (net /X_AM
+        (wire
+          (path Bestückungsseite 296
+            14916 -44500
+            13736 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            17311 -47250
+            17311 -46611
+            17100 -46400
+            15450 -46400
+            14916 -45866
+            14916 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            14916 -44500
+            14916 -43384
+            16250 -42050
+            16250 -40500
+            16900 -39850
+            17500 -39850
+            18000 -39350
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 198
+            18000 -39350
+            18000 -37700
+          )
+          (type protect)
+        )
+      )
+      (net /X_AP
+        (wire
+          (path Bestückungsseite 296
+            13736 -41500
+            14916 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            14916 -41500
+            14916 -40984
+            16500 -39400
+            16500 -38500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            15933 -47250
+            14850 -47250
+            13000 -45400
+            13000 -42236
+            13736 -41500
+          )
+          (type protect)
+        )
+      )
+      (net /A_AP
+        (wire
+          (path Bestückungsseite 296
+            59986 -41500
+            61166 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            62183 -47250
+            60750 -47250
+            59200 -45700
+            59200 -42286
+            59986 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            61166 -41500
+            61550 -41500
+            61900 -41150
+            61900 -40650
+            63000 -39550
+            63000 -38500
+          )
+          (type protect)
+        )
+      )
+      (net /Z_AP
+        (wire
+          (path Bestückungsseite 296
+            44486 -41500
+            45666 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            46683 -47250
+            45400 -47250
+            43650 -45500
+            43650 -42336
+            44486 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            45666 -41500
+            46350 -41500
+            46950 -40900
+            46950 -40050
+            47500 -39500
+            47500 -38500
+          )
+          (type protect)
+        )
+      )
+      (net /A_AM
+        (wire
+          (path Bestückungsseite 296
+            59986 -44500
+            61166 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            63561 -47250
+            63561 -46895
+            61166 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            61166 -44500
+            62000 -44500
+            62900 -43600
+            62900 -40600
+            63250 -40250
+            64000 -40250
+            64500 -39750
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 198
+            64500 -39750
+            64500 -37700
+          )
+          (type protect)
+        )
+      )
+      (net /Z_AM
+        (wire
+          (path Bestückungsseite 296
+            44486 -44500
+            45666 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            48061 -47250
+            48061 -46895
+            45666 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            45666 -44500
+            46900 -44500
+            47500 -43900
+            47500 -40400
+            48000 -39900
+            48550 -39900
+            49000 -39450
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 198
+            49000 -39450
+            49000 -37700
+          )
+          (type protect)
+        )
+      )
+      (net /A_BP
+        (wire
+          (path Bestückungsseite 296
+            67584 -44500
+            66800 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            67584 -44500
+            68764 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            64939 -47250
+            64939 -46361
+            66800 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            66800 -44500
+            65750 -43450
+            65750 -40600
+            65000 -39850
+            65000 -38500
+          )
+          (type protect)
+        )
+      )
+      (net /Z_BP
+        (wire
+          (path Bestückungsseite 296
+            52084 -44500
+            51400 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            52084 -44500
+            53264 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            49439 -47250
+            49439 -46461
+            51400 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            51400 -44500
+            52084 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            51400 -44500
+            51050 -44500
+            50300 -43750
+            50300 -40550
+            49500 -39750
+            49500 -38500
+          )
+          (type protect)
+        )
+      )
+      (net /A_BM
+        (wire
+          (path Bestückungsseite 296
+            67584 -41500
+            68764 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            66317 -47250
+            68900 -47250
+            70150 -46000
+            70150 -42050
+            69600 -41500
+            68764 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            67584 -41500
+            67584 -40284
+            66500 -39200
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 198
+            66500 -39200
+            66500 -37700
+          )
+          (type protect)
+        )
+      )
+      (net /Z_BM
+        (wire
+          (path Bestückungsseite 296
+            52084 -41500
+            53264 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            52084 -41500
+            52084 -40534
+            51000 -39450
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 198
+            51000 -39450
+            51000 -37700
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            50817 -47250
+            53200 -47250
+            54500 -45950
+            54500 -42100
+            53900 -41500
+            53264 -41500
+          )
+          (type protect)
+        )
+      )
+      (net /Y_AP
+        (wire
+          (path Bestückungsseite 296
+            28986 -41500
+            30166 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            32000 -38500
+            32000 -39750
+            31450 -40300
+            31450 -41100
+            31050 -41500
+            30166 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            31183 -47250
+            29500 -47250
+            28150 -45900
+            28150 -41750
+            28400 -41500
+            28986 -41500
+          )
+          (type protect)
+        )
+      )
+      (net /Y_AM
+        (wire
+          (path Bestückungsseite 296
+            28986 -44500
+            30166 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            32561 -47250
+            32561 -46895
+            30166 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            30166 -44500
+            31150 -44500
+            32000 -43650
+            32000 -40550
+            32300 -40250
+            33150 -40250
+            33500 -39900
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 198
+            33500 -39900
+            33500 -37700
+          )
+          (type protect)
+        )
+      )
+      (net /Y_BP
+        (wire
+          (path Bestückungsseite 296
+            36584 -44500
+            37764 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            33939 -47250
+            33939 -46111
+            34300 -45750
+            35334 -45750
+            36584 -44500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            36584 -44500
+            35800 -44500
+            34900 -43600
+            34900 -40500
+            34000 -39600
+            34000 -38500
+          )
+          (type protect)
+        )
+      )
+      (net /Y_BM
+        (wire
+          (path Bestückungsseite 296
+            36584 -41500
+            37764 -41500
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            36584 -41500
+            36584 -40484
+            35500 -39400
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 198
+            35500 -39400
+            35500 -37700
+          )
+          (type protect)
+        )
+        (wire
+          (path Bestückungsseite 296
+            35317 -47250
+            37550 -47250
+            38950 -45850
+            38950 -41950
+            38500 -41500
+            37764 -41500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000046"
+        (wire
+          (path Bestückungsseite 100
+            47000 -22700
+            47000 -24350
+          )
+        )
+      )
+      (net "N-000044"
+        (wire
+          (path Bestückungsseite 100
+            35000 -22700
+            35000 -24350
+          )
+        )
+      )
+      (net "N-000045"
+        (wire
+          (path Bestückungsseite 100
+            38000 -22700
+            38000 -24350
+          )
+        )
+      )
+      (net "N-000042"
+        (wire
+          (path Bestückungsseite 100
+            41000 -22700
+            41000 -24350
+          )
+        )
+      )
+      (net "N-000043"
+        (wire
+          (path Bestückungsseite 100
+            44000 -22700
+            44000 -24350
+          )
+        )
+      )
+      (net "N-000013"
+        (wire
+          (path Lötseite 100
+            35750 -16100
+            35750 -15602
+          )
+        )
+        (wire
+          (path Lötseite 100
+            37875 -14345
+            37875 -14707
+            36980 -15602
+            35750 -15602
+          )
+        )
+      )
+      (net "N-000040"
+        (wire
+          (path Lötseite 100
+            35750 -17400
+            35750 -17898
+          )
+        )
+        (wire
+          (path Lötseite 100
+            32000 -20300
+            32000 -19708
+          )
+        )
+        (wire
+          (path Lötseite 100
+            32000 -19708
+            33940 -19708
+            35750 -17898
+          )
+        )
+      )
+      (net "N-000051"
+        (wire
+          (path Lötseite 100
+            38725 -14345
+            38725 -15218
+          )
+        )
+        (wire
+          (path Lötseite 100
+            37000 -16100
+            37598 -16100
+          )
+        )
+        (wire
+          (path Lötseite 100
+            38725 -15218
+            38128 -15218
+            37598 -15748
+            37598 -16100
+          )
+        )
+      )
+      (net "N-000041"
+        (wire
+          (path Lötseite 100
+            37000 -17400
+            37000 -17898
+          )
+        )
+        (wire
+          (path Lötseite 100
+            35000 -20300
+            35000 -19708
+          )
+        )
+        (wire
+          (path Lötseite 100
+            35000 -19708
+            36810 -17898
+            37000 -17898
+          )
+        )
+      )
+      (net "N-000012"
+        (wire
+          (path Lötseite 100
+            38250 -16100
+            38250 -15602
+          )
+        )
+        (wire
+          (path Lötseite 100
+            39575 -14345
+            39575 -15218
+          )
+        )
+        (wire
+          (path Lötseite 100
+            39575 -15218
+            39191 -15602
+            38250 -15602
+          )
+        )
+      )
+      (net "N-000038"
+        (wire
+          (path Lötseite 100
+            38000 -20300
+            38000 -19708
+          )
+        )
+        (wire
+          (path Lötseite 100
+            38250 -17898
+            38000 -18148
+            38000 -19708
+          )
+        )
+        (wire
+          (path Lötseite 100
+            38250 -17400
+            38250 -17898
+          )
+        )
+      )
+      (net "N-000052"
+        (wire
+          (path Lötseite 100
+            39500 -16100
+            39500 -15602
+          )
+        )
+        (wire
+          (path Lötseite 100
+            40425 -14345
+            40425 -15218
+          )
+        )
+        (wire
+          (path Lötseite 100
+            40425 -15218
+            39884 -15218
+            39500 -15602
+          )
+        )
+      )
+      (net "N-000039"
+        (wire
+          (path Lötseite 100
+            39500 -17400
+            39500 -18208
+            41000 -19708
+          )
+        )
+        (wire
+          (path Lötseite 100
+            41000 -20300
+            41000 -19708
+          )
+        )
+      )
+      (net "N-000011"
+        (wire
+          (path Lötseite 100
+            41275 -14345
+            41275 -15218
+          )
+        )
+        (wire
+          (path Lötseite 100
+            40750 -16100
+            40750 -15602
+          )
+        )
+        (wire
+          (path Lötseite 100
+            41275 -15218
+            41134 -15218
+            40750 -15602
+          )
+        )
+      )
+      (net "N-000036"
+        (wire
+          (path Lötseite 100
+            40750 -17400
+            40750 -17898
+          )
+        )
+        (wire
+          (path Lötseite 100
+            40750 -17898
+            42560 -19708
+            44000 -19708
+          )
+        )
+        (wire
+          (path Lötseite 100
+            44000 -20300
+            44000 -19708
+          )
+        )
+      )
+      (net "N-000053"
+        (wire
+          (path Lötseite 100
+            42000 -16100
+            42000 -15602
+          )
+        )
+        (wire
+          (path Lötseite 100
+            42125 -14345
+            42125 -15477
+            42000 -15602
+          )
+        )
+      )
+      (net "N-000037"
+        (wire
+          (path Lötseite 100
+            42000 -17400
+            42000 -17898
+          )
+        )
+        (wire
+          (path Lötseite 100
+            47000 -20300
+            47000 -19708
+          )
+        )
+        (wire
+          (path Lötseite 100
+            47000 -19708
+            44308 -19708
+            42498 -17898
+            42000 -17898
+          )
+        )
+      )
+      (net "N-000010"
+        (wire
+          (path Lötseite 100
+            42975 -14345
+            42975 -15218
+          )
+        )
+        (wire
+          (path Lötseite 100
+            42975 -15218
+            43250 -15493
+            43250 -16100
+          )
+        )
+      )
+      (net "N-000034"
+        (wire
+          (path Lötseite 100
+            50750 -18958
+            50383 -18958
+            50254 -19087
+            44439 -19087
+            43250 -17898
+          )
+        )
+        (wire
+          (path Lötseite 100
+            43250 -17400
+            43250 -17898
+          )
+        )
+        (wire
+          (path Lötseite 100
+            50750 -19550
+            50750 -18958
+          )
+        )
+      )
+      (net "N-000054"
+        (wire
+          (path Lötseite 100
+            43825 -14345
+            43825 -15218
+          )
+        )
+        (wire
+          (path Lötseite 100
+            44500 -16100
+            44500 -15602
+          )
+        )
+        (wire
+          (path Lötseite 100
+            43825 -15218
+            44116 -15218
+            44500 -15602
+          )
+        )
+      )
+      (net "N-000035"
+        (wire
+          (path Bestückungsseite 100
+            52532 -18274
+            46989 -18274
+            46949 -18314
+          )
+        )
+        (wire
+          (path Lötseite 100
+            44500 -17898
+            44500 -18140
+            45202 -18842
+            46421 -18842
+            46949 -18314
+          )
+        )
+        (wire
+          (path Lötseite 100
+            44500 -17400
+            44500 -17898
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 46949 -18314
+        )
+        (via "Via[0-1]_100:39.4_mil" 52532 -18274
+        )
+        (wire
+          (path Lötseite 100
+            53750 -19550
+            52532 -18332
+            52532 -18274
+          )
+        )
+      )
+      (net "N-000050"
+        (wire
+          (path Lötseite 240
+            56750 -16100
+            56750 -15532
+          )
+        )
+        (wire
+          (path Lötseite 240
+            51475 -12655
+            53305 -12655
+            56182 -15532
+            56750 -15532
+          )
+        )
+      )
+      (net "N-000032"
+        (wire
+          (path Lötseite 100
+            56750 -17400
+            56750 -17898
+          )
+        )
+        (wire
+          (path Lötseite 100
+            56750 -19550
+            56750 -18958
+          )
+        )
+        (wire
+          (path Lötseite 100
+            56750 -18958
+            56800 -18908
+            56800 -17948
+            56750 -17898
+          )
+        )
+      )
+      (net "N-000014"
+        (wire
+          (path Lötseite 100
+            53500 -15602
+            53500 -15072
+            52047 -13619
+            37226 -13619
+            37025 -13820
+          )
+        )
+        (wire
+          (path Lötseite 100
+            53500 -16100
+            53500 -15602
+          )
+        )
+        (wire
+          (path Lötseite 100
+            37025 -14345
+            37025 -13820
+          )
+        )
+      )
+      (net "N-000033"
+        (wire
+          (path Bestückungsseite 100
+            51750 -19550
+            51750 -18959
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            51750 -18959
+            53061 -18959
+            53637 -18383
+          )
+        )
+        (wire
+          (path Lötseite 100
+            53637 -18383
+            53500 -18246
+            53500 -17400
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 53637 -18383
+        )
+      )
+      (net "N-000015"
+        (wire
+          (path Lötseite 100
+            54902 -16100
+            51982 -13180
+            47225 -13180
+          )
+        )
+        (wire
+          (path Lötseite 100
+            55500 -16100
+            54902 -16100
+          )
+        )
+        (wire
+          (path Lötseite 100
+            47225 -12655
+            47225 -13180
+          )
+        )
+      )
+      (net "N-000019"
+        (wire
+          (path Bestückungsseite 100
+            54750 -18959
+            54782 -18927
+            54782 -18554
+          )
+        )
+        (wire
+          (path Lötseite 100
+            55500 -17898
+            55438 -17898
+            54782 -18554
+          )
+        )
+        (wire
+          (path Lötseite 100
+            55500 -17400
+            55500 -17898
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            54750 -19550
+            54750 -18959
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 54782 -18554
+        )
+      )
+      (net /OUT0
+        (wire
+          (path Bestückungsseite 160
+            50750 -23100
+            51622 -23100
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            52250 -23100
+            51622 -23100
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            50750 -21950
+            50750 -23100
+          )
+        )
+      )
+      (net /ENABLE
+        (wire
+          (path Lötseite 100
+            57750 -21950
+            57750 -22541
+          )
+        )
+        (wire
+          (path Lötseite 100
+            58250 -23100
+            58250 -22602
+          )
+        )
+        (wire
+          (path Lötseite 100
+            57750 -22541
+            58189 -22541
+            58250 -22602
+          )
+        )
+        (wire
+          (path Lötseite 100
+            69000 -39630
+            70390 -39630
+            71296 -38724
+            71296 -29634
+            64762 -23100
+            58250 -23100
+          )
+        )
+        (wire
+          (path Lötseite 100
+            69000 -39630
+            66301 -42329
+            56440 -42329
+            53500 -39389
+          )
+        )
+        (wire
+          (path Lötseite 100
+            69000 -39389
+            69000 -39630
+          )
+        )
+        (wire
+          (path Lötseite 100
+            53500 -39389
+            50287 -42602
+            39682 -42602
+            37628 -40548
+          )
+        )
+        (wire
+          (path Lötseite 100
+            37628 -40548
+            37628 -39761
+            38000 -39389
+          )
+        )
+        (wire
+          (path Lötseite 100
+            22500 -39389
+            25469 -42358
+            35818 -42358
+            37628 -40548
+          )
+        )
+        (wire
+          (path Lötseite 100
+            38000 -38500
+            38000 -39389
+          )
+        )
+        (wire
+          (path Lötseite 100
+            22500 -38500
+            22500 -39389
+          )
+        )
+        (wire
+          (path Lötseite 100
+            69000 -38500
+            69000 -39389
+          )
+        )
+        (wire
+          (path Lötseite 100
+            53500 -38500
+            53500 -39389
+          )
+        )
+      )
+      (net /A_CLK
+        (wire
+          (path Lötseite 100
+            54750 -22541
+            53393 -23898
+            47726 -23898
+            47698 -23926
+            47698 -24848
+            47726 -24876
+            66253 -24876
+            71053 -29676
+            71053 -38682
+            70375 -39360
+            69528 -39360
+            69500 -39332
+            69500 -38193
+          )
+        )
+        (wire
+          (path Lötseite 100
+            55250 -23100
+            55250 -22602
+          )
+        )
+        (wire
+          (path Lötseite 100
+            54750 -22245
+            55107 -22602
+            55250 -22602
+          )
+        )
+        (wire
+          (path Lötseite 100
+            54750 -22245
+            54750 -22541
+          )
+        )
+        (wire
+          (path Lötseite 100
+            54750 -21950
+            54750 -22245
+          )
+        )
+        (wire
+          (path Lötseite 100
+            69500 -37700
+            69500 -38193
+          )
+        )
+      )
+      (net /A_DIR
+        (wire
+          (path Lötseite 100
+            51750 -22541
+            50595 -23696
+            47595 -23696
+            47419 -23872
+            47419 -24981
+            47524 -25086
+            66178 -25086
+            68450 -27358
+            68450 -27424
+            66399 -29475
+            58228 -29475
+            57080 -30623
+            57080 -37886
+            59095 -39901
+            59790 -39901
+            60500 -39191
+            60500 -37700
+          )
+        )
+        (wire
+          (path Lötseite 100
+            52250 -23100
+            52250 -22602
+          )
+        )
+        (wire
+          (path Lötseite 100
+            51750 -21950
+            51750 -22541
+          )
+        )
+        (wire
+          (path Lötseite 100
+            51750 -22541
+            51811 -22602
+            52250 -22602
+          )
+        )
+      )
+      (net /Z_CLK
+        (wire
+          (path Lötseite 100
+            48250 -25650
+            66431 -25650
+            67909 -27128
+            67909 -27646
+            66739 -28816
+            58602 -28816
+            56112 -31306
+            56112 -35306
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            54000 -37700
+            54000 -36811
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            54000 -36811
+            54607 -36811
+            56112 -35306
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 56112 -35306
+        )
+        (wire
+          (path Lötseite 100
+            48000 -23291
+            47715 -23291
+            47217 -23789
+            47217 -25366
+            47501 -25650
+            48250 -25650
+          )
+        )
+        (wire
+          (path Lötseite 100
+            48000 -22700
+            48000 -23291
+          )
+        )
+      )
+      (net /Z_DIR
+        (wire
+          (path Lötseite 100
+            45250 -25650
+            45250 -26148
+          )
+        )
+        (wire
+          (path Lötseite 100
+            40070 -26880
+            44518 -26880
+            45250 -26148
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 40070 -26880
+        )
+        (wire
+          (path Bestückungsseite 100
+            45000 -37700
+            45000 -34570
+            40070 -29640
+            40070 -26880
+          )
+        )
+        (wire
+          (path Lötseite 100
+            45250 -25650
+            45848 -25650
+          )
+        )
+        (wire
+          (path Lötseite 100
+            45848 -25650
+            46226 -25272
+            46226 -23431
+            45495 -22700
+            45000 -22700
+          )
+        )
+      )
+      (net /Y_CLK
+        (wire
+          (path Lötseite 100
+            38556 -27430
+            40336 -25650
+            42250 -25650
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 38556 -27430
+        )
+        (wire
+          (path Bestückungsseite 100
+            38500 -37700
+            38500 -27486
+            38556 -27430
+          )
+        )
+        (wire
+          (path Lötseite 100
+            42000 -23291
+            45571 -23291
+            46004 -23724
+            46004 -24905
+            45747 -25162
+            43336 -25162
+            42848 -25650
+          )
+        )
+        (wire
+          (path Lötseite 100
+            42250 -25650
+            42848 -25650
+          )
+        )
+        (wire
+          (path Lötseite 100
+            42000 -22700
+            42000 -23291
+          )
+        )
+      )
+      (net /Y_DIR
+        (wire
+          (path Lötseite 100
+            39250 -25650
+            39250 -26148
+          )
+        )
+        (wire
+          (path Lötseite 100
+            34570 -26960
+            34876 -26654
+            38744 -26654
+            39250 -26148
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 34570 -26960
+        )
+        (wire
+          (path Bestückungsseite 100
+            29500 -37700
+            29500 -32030
+            34570 -26960
+          )
+        )
+        (wire
+          (path Lötseite 100
+            39250 -25650
+            39250 -25152
+          )
+        )
+        (wire
+          (path Lötseite 100
+            39000 -22700
+            39000 -23291
+          )
+        )
+        (wire
+          (path Lötseite 100
+            39000 -23291
+            39600 -23891
+            45774 -23891
+            45802 -23919
+            45802 -24774
+            45709 -24867
+            39535 -24867
+            39250 -25152
+          )
+        )
+      )
+      (net /X_CLK
+        (wire
+          (path Lötseite 100
+            31671 -26133
+            31671 -25993
+            32583 -25081
+            35698 -25081
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 31671 -26133
+        )
+        (wire
+          (path Bestückungsseite 100
+            23000 -37700
+            23000 -34804
+            31671 -26133
+          )
+        )
+        (wire
+          (path Lötseite 100
+            35698 -25081
+            35698 -23593
+            36000 -23291
+          )
+        )
+        (wire
+          (path Lötseite 100
+            36250 -25152
+            35769 -25152
+            35698 -25081
+          )
+        )
+        (wire
+          (path Lötseite 100
+            36000 -22700
+            36000 -23291
+          )
+        )
+        (wire
+          (path Lötseite 100
+            36250 -25650
+            36250 -25152
+          )
+        )
+      )
+      (net /X_DIR
+        (wire
+          (path Bestückungsseite 100
+            14000 -37700
+            14000 -36811
+          )
+        )
+        (wire
+          (path Lötseite 100
+            30032 -26341
+            32023 -24350
+            33000 -24350
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 30032 -26341
+        )
+        (wire
+          (path Bestückungsseite 100
+            14000 -36811
+            24470 -26341
+            30032 -26341
+          )
+        )
+        (wire
+          (path Lötseite 100
+            33000 -24350
+            33000 -23291
+          )
+        )
+        (wire
+          (path Lötseite 100
+            33000 -22700
+            33000 -23291
+          )
+        )
+      )
+      (net "N-000016"
+        (wire
+          (path Bestückungsseite 100
+            45000 -19708
+            46123 -18585
+            46123 -18219
+            49376 -14966
+            52354 -14966
+          )
+        )
+        (wire
+          (path Lötseite 100
+            47225 -13820
+            51719 -13820
+            52354 -14455
+            52354 -14966
+          )
+        )
+        (wire
+          (path Lötseite 100
+            49902 -16100
+            49902 -15668
+            49673 -15439
+            47573 -15439
+            47352 -15218
+            47225 -15218
+          )
+        )
+        (wire
+          (path Lötseite 100
+            47225 -14345
+            47225 -13820
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            45000 -20300
+            45000 -19708
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 52354 -14966
+        )
+        (wire
+          (path Lötseite 100
+            50500 -16100
+            49902 -16100
+          )
+        )
+        (wire
+          (path Lötseite 100
+            47225 -14345
+            47225 -15218
+          )
+        )
+      )
+      (net DGND
+        (wire
+          (path Lötseite 160
+            34495 -20221
+            34585 -20311
+            34585 -20830
+            34630 -20875
+            36000 -20875
+          )
+        )
+        (wire
+          (path Lötseite 160
+            33000 -20300
+            33079 -20221
+            34495 -20221
+          )
+        )
+        (wire
+          (path Lötseite 160
+            37025 -12724
+            35140 -14609
+            35140 -16536
+            35523 -16919
+            36225 -16919
+            36375 -17069
+            36375 -17813
+            34495 -19693
+            34495 -20221
+          )
+        )
+        (wire
+          (path Lötseite 160
+            37025 -12724
+            37025 -12793
+          )
+        )
+        (wire
+          (path Lötseite 160
+            37025 -12655
+            37025 -12724
+          )
+        )
+        (wire
+          (path Lötseite 160
+            36000 -20875
+            38735 -20875
+            39000 -20610
+          )
+        )
+        (wire
+          (path Lötseite 160
+            36000 -20832
+            36000 -20875
+          )
+        )
+        (wire
+          (path Lötseite 160
+            26614 -21500
+            27221 -20893
+            32407 -20893
+            33000 -20300
+          )
+        )
+        (wire
+          (path Lötseite 160
+            36000 -20300
+            36000 -20832
+          )
+        )
+        (wire
+          (path Lötseite 160
+            42000 -20875
+            45000 -20875
+          )
+        )
+        (wire
+          (path Lötseite 160
+            42000 -20832
+            42000 -20875
+          )
+        )
+        (wire
+          (path Lötseite 160
+            39000 -20610
+            39265 -20875
+            42000 -20875
+          )
+        )
+        (wire
+          (path Lötseite 160
+            39000 -20300
+            39000 -20610
+          )
+        )
+        (wire
+          (path Lötseite 160
+            45000 -20875
+            47735 -20875
+            48000 -20610
+          )
+        )
+        (wire
+          (path Lötseite 160
+            45000 -20832
+            45000 -20875
+          )
+        )
+        (wire
+          (path Lötseite 160
+            42000 -20300
+            42000 -20832
+          )
+        )
+        (wire
+          (path Lötseite 160
+            45000 -20300
+            45000 -20832
+          )
+        )
+        (wire
+          (path Lötseite 160
+            48000 -20610
+            51311 -20610
+            51750 -20171
+          )
+        )
+        (wire
+          (path Lötseite 160
+            48000 -20300
+            48000 -20610
+          )
+        )
+        (wire
+          (path Lötseite 160
+            37875 -12793
+            37875 -12932
+          )
+        )
+        (wire
+          (path Lötseite 160
+            37875 -12655
+            37875 -12793
+          )
+        )
+        (wire
+          (path Lötseite 160
+            37025 -12793
+            37875 -12793
+          )
+        )
+        (wire
+          (path Lötseite 160
+            26350 -23000
+            26350 -21764
+            26614 -21500
+          )
+        )
+        (wire
+          (path Lötseite 160
+            26350 -23000
+            26350 -23628
+          )
+        )
+        (wire
+          (path Lötseite 160
+            26500 -24500
+            26500 -23778
+            26350 -23628
+          )
+        )
+        (wire
+          (path Lötseite 160
+            26350 -25372
+            26500 -25222
+            26500 -24500
+          )
+        )
+        (wire
+          (path Lötseite 160
+            46750 -17400
+            47378 -17400
+          )
+        )
+        (wire
+          (path Lötseite 160
+            48000 -17582
+            47560 -17582
+            47378 -17400
+          )
+        )
+        (wire
+          (path Lötseite 160
+            48000 -17400
+            48000 -17582
+          )
+        )
+        (wire
+          (path Lötseite 160
+            49250 -17400
+            48000 -17400
+          )
+        )
+        (wire
+          (path Lötseite 160
+            52752 -20148
+            51773 -20148
+            51750 -20171
+          )
+        )
+        (wire
+          (path Lötseite 160
+            51750 -19550
+            51750 -20171
+          )
+        )
+        (wire
+          (path Lötseite 160
+            49872 -17400
+            49250 -17400
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            56750 -19550
+            56750 -20172
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            53750 -20150
+            56728 -20150
+            56750 -20172
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            52752 -20148
+            52754 -20150
+            53750 -20150
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            50750 -19550
+            50750 -20172
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            50750 -20172
+            52728 -20172
+            52752 -20148
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            53750 -19550
+            53750 -20150
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 52752 -20148
+        )
+        (wire
+          (path Lötseite 160
+            54750 -20125
+            54727 -20148
+            52752 -20148
+          )
+        )
+        (wire
+          (path Lötseite 160
+            57750 -19550
+            57750 -20171
+          )
+        )
+        (wire
+          (path Lötseite 160
+            54750 -19550
+            54750 -20125
+          )
+        )
+        (wire
+          (path Lötseite 160
+            57750 -20171
+            54796 -20171
+            54750 -20125
+          )
+        )
+        (wire
+          (path Lötseite 160
+            50500 -17400
+            49872 -17400
+          )
+        )
+        (wire
+          (path Lötseite 160
+            42975 -12932
+            42975 -13210
+          )
+        )
+        (wire
+          (path Lötseite 160
+            42975 -12655
+            42975 -12932
+          )
+        )
+        (wire
+          (path Lötseite 160
+            42975 -12932
+            43825 -12932
+          )
+        )
+        (wire
+          (path Lötseite 160
+            42125 -12793
+            42542 -13210
+            42975 -13210
+          )
+        )
+        (wire
+          (path Lötseite 160
+            42125 -12793
+            42125 -12932
+          )
+        )
+        (wire
+          (path Lötseite 160
+            42125 -12655
+            42125 -12793
+          )
+        )
+        (wire
+          (path Lötseite 160
+            40425 -12932
+            40425 -13210
+          )
+        )
+        (wire
+          (path Lötseite 160
+            40425 -12655
+            40425 -12932
+          )
+        )
+        (wire
+          (path Lötseite 160
+            40425 -12932
+            41275 -12932
+          )
+        )
+        (wire
+          (path Lötseite 160
+            39575 -12793
+            39992 -13210
+            40425 -13210
+          )
+        )
+        (wire
+          (path Lötseite 160
+            39575 -12793
+            39575 -12932
+          )
+        )
+        (wire
+          (path Lötseite 160
+            39575 -12655
+            39575 -12793
+          )
+        )
+        (wire
+          (path Lötseite 160
+            37875 -12932
+            38725 -12932
+          )
+        )
+        (wire
+          (path Lötseite 160
+            51750 -19550
+            51750 -18928
+          )
+        )
+        (wire
+          (path Lötseite 160
+            50500 -17400
+            51128 -17400
+          )
+        )
+        (wire
+          (path Lötseite 160
+            51750 -17664
+            51392 -17664
+            51128 -17400
+          )
+        )
+        (wire
+          (path Lötseite 160
+            51750 -17664
+            51750 -17928
+          )
+        )
+        (wire
+          (path Lötseite 160
+            51750 -17400
+            51750 -17664
+          )
+        )
+        (wire
+          (path Lötseite 160
+            43825 -12655
+            43825 -12932
+          )
+        )
+        (wire
+          (path Lötseite 160
+            43825 -12932
+            44675 -12932
+          )
+        )
+        (wire
+          (path Lötseite 160
+            41275 -12655
+            41275 -12932
+          )
+        )
+        (wire
+          (path Lötseite 160
+            41275 -12932
+            42125 -12932
+          )
+        )
+        (wire
+          (path Lötseite 160
+            38725 -12655
+            38725 -12932
+          )
+        )
+        (wire
+          (path Lötseite 160
+            38725 -12932
+            39575 -12932
+          )
+        )
+        (wire
+          (path Lötseite 160
+            51750 -18928
+            51750 -17928
+          )
+        )
+        (wire
+          (path Lötseite 160
+            26350 -21500
+            26614 -21500
+          )
+        )
+        (wire
+          (path Lötseite 160
+            46375 -12655
+            46375 -13210
+          )
+        )
+        (wire
+          (path Lötseite 160
+            45525 -12932
+            45803 -13210
+            46375 -13210
+          )
+        )
+        (wire
+          (path Lötseite 160
+            45525 -12932
+            45525 -13210
+          )
+        )
+        (wire
+          (path Lötseite 160
+            45525 -12655
+            45525 -12932
+          )
+        )
+        (wire
+          (path Lötseite 160
+            44675 -12932
+            44953 -13210
+            45525 -13210
+          )
+        )
+        (wire
+          (path Lötseite 160
+            44675 -12655
+            44675 -12932
+          )
+        )
+        (wire
+          (path Lötseite 160
+            26350 -26000
+            26350 -25372
+          )
+        )
+      )
+      (net "N-000007"
+        (wire
+          (path Bestückungsseite 100
+            42000 -20300
+            42000 -19708
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            45472 -18191
+            43517 -18191
+            42000 -19708
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 45472 -18191
+        )
+        (wire
+          (path Lötseite 100
+            48698 -16100
+            48698 -16316
+            48092 -16922
+            46226 -16922
+            46198 -16950
+            46198 -17465
+            45472 -18191
+          )
+        )
+        (wire
+          (path Lötseite 100
+            48698 -16100
+            48652 -16100
+          )
+        )
+        (wire
+          (path Lötseite 100
+            48726 -16100
+            48698 -16100
+          )
+        )
+        (wire
+          (path Lötseite 100
+            49250 -16100
+            48726 -16100
+          )
+        )
+        (wire
+          (path Lötseite 100
+            48652 -16100
+            48652 -15677
+            48624 -15649
+            47498 -15649
+            47297 -15448
+            46605 -15448
+            46375 -15218
+          )
+        )
+        (wire
+          (path Lötseite 100
+            46375 -14345
+            46375 -15218
+          )
+        )
+      )
+      (net "N-000017"
+        (wire
+          (path Lötseite 100
+            47630 -16100
+            47630 -16066
+            47213 -15649
+            46157 -15649
+            45726 -15218
+            45525 -15218
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            39000 -19708
+            41636 -17072
+            45516 -17072
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            39000 -20300
+            39000 -19708
+          )
+        )
+        (wire
+          (path Lötseite 100
+            45525 -14345
+            45525 -15218
+          )
+        )
+        (wire
+          (path Lötseite 100
+            47630 -16100
+            47630 -16171
+            47165 -16636
+            45952 -16636
+            45516 -17072
+          )
+        )
+        (wire
+          (path Lötseite 100
+            47701 -16100
+            47630 -16100
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 45516 -17072
+        )
+        (wire
+          (path Lötseite 100
+            48000 -16100
+            47701 -16100
+          )
+        )
+      )
+      (net "N-000047"
+        (wire
+          (path Lötseite 100
+            45556 -15970
+            44804 -15218
+            44675 -15218
+          )
+        )
+        (wire
+          (path Lötseite 100
+            45556 -15970
+            46022 -15970
+            46152 -16100
+          )
+        )
+        (wire
+          (path Lötseite 100
+            44675 -14345
+            44675 -15218
+          )
+        )
+        (wire
+          (path Lötseite 100
+            46750 -16100
+            46152 -16100
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            36000 -20300
+            36000 -19708
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 45556 -15970
+        )
+        (wire
+          (path Bestückungsseite 100
+            36000 -19708
+            39738 -15970
+            45556 -15970
+          )
+        )
+      )
+      (net "N-000049"
+        (wire
+          (path Lötseite 100
+            56125 -16851
+            52003 -16851
+            51750 -16598
+          )
+        )
+        (wire
+          (path Lötseite 100
+            48075 -11782
+            56495 -11782
+            58056 -13343
+            58056 -14911
+            58552 -15407
+            58552 -16513
+            58214 -16851
+            56125 -16851
+          )
+        )
+        (wire
+          (path Lötseite 100
+            56125 -18428
+            56125 -16851
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            48000 -20300
+            48000 -20891
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 56125 -18428
+        )
+        (wire
+          (path Bestückungsseite 100
+            48000 -20891
+            56619 -20891
+            57099 -20411
+            57099 -19095
+            56432 -18428
+            56125 -18428
+          )
+        )
+        (wire
+          (path Lötseite 100
+            51750 -16100
+            51750 -16598
+          )
+        )
+        (wire
+          (path Lötseite 100
+            48075 -12655
+            48075 -11782
+          )
+        )
+      )
+      (net "N-000048"
+        (wire
+          (path Lötseite 100
+            58000 -16100
+            57402 -16100
+          )
+        )
+        (wire
+          (path Lötseite 100
+            48075 -14345
+            48075 -15218
+          )
+        )
+        (wire
+          (path Lötseite 100
+            48075 -15218
+            50650 -15218
+            51078 -15646
+            52274 -15646
+            52946 -16318
+            52946 -16524
+            52974 -16552
+            57374 -16552
+            57402 -16524
+            57402 -16100
+          )
+        )
+      )
+      (net "N-000031"
+        (wire
+          (path Bestückungsseite 100
+            57750 -18959
+            57952 -18757
+            57952 -18554
+          )
+        )
+        (wire
+          (path Lötseite 100
+            58000 -17400
+            58000 -18506
+            57952 -18554
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            57750 -19550
+            57750 -18959
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 57952 -18554
+        )
+      )
+      (net +5V
+        (wire
+          (path Bestückungsseite 160
+            35000 -20921
+            33858 -20921
+          )
+        )
+        (wire
+          (path Lötseite 160
+            29500 -24497
+            30003 -24497
+            30676 -23824
+            30676 -23025
+            32780 -20921
+            33858 -20921
+          )
+        )
+        (wire
+          (path Lötseite 160
+            27650 -25000
+            27650 -26000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            27500 -24483
+            27650 -24633
+            27650 -25000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            27650 -25000
+            28772 -25000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            29500 -25000
+            28772 -25000
+          )
+        )
+        (wire
+          (path Lötseite 160
+            29500 -25000
+            29500 -24497
+          )
+        )
+        (via "Via[0-1]_100:39.4_mil" 33858 -20921
+        )
+        (wire
+          (path Bestückungsseite 160
+            38000 -20921
+            40849 -20921
+            41000 -20770
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            35000 -20921
+            38000 -20921
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            35000 -20300
+            35000 -20921
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            38000 -20300
+            38000 -20921
+          )
+        )
+        (wire
+          (path Lötseite 160
+            27500 -24483
+            27500 -24457
+          )
+        )
+        (wire
+          (path Lötseite 160
+            27500 -24500
+            27500 -24483
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            44000 -20875
+            44000 -20921
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            44000 -20300
+            44000 -20875
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            41000 -20770
+            41105 -20875
+            44000 -20875
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            41000 -20300
+            41000 -20770
+          )
+        )
+        (wire
+          (path Lötseite 160
+            27500 -24412
+            27500 -24457
+          )
+        )
+        (wire
+          (path Lötseite 160
+            27500 -24412
+            27500 -23522
+          )
+        )
+        (wire
+          (path Lötseite 160
+            27500 -23522
+            27650 -23372
+            27650 -23000
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            44000 -20921
+            47000 -20921
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            47000 -20300
+            47000 -20921
+          )
+        )
+      )
+      (net "N-000124"
+        (wire
+          (path Lötseite 100
+            27650 -21500
+            28148 -21500
+          )
+        )
+        (wire
+          (path Lötseite 100
+            29500 -24000
+            29500 -22852
+            28148 -21500
+          )
+        )
+      )
+      (net "N-000060"
+        (wire
+          (path Lötseite 100
+            27500 -37700
+            27500 -36811
+          )
+        )
+        (wire
+          (path Lötseite 100
+            27500 -31000
+            27500 -36811
+          )
+        )
+      )
+      (net "N-000063"
+        (wire
+          (path Lötseite 100
+            28500 -31000
+            28000 -31500
+            28000 -38500
+          )
+        )
+      )
+      (net "N-000062"
+        (wire
+          (path Lötseite 100
+            28500 -37700
+            28500 -36811
+          )
+        )
+        (wire
+          (path Lötseite 100
+            29500 -31000
+            28287 -32213
+            28287 -36598
+            28500 -36811
+          )
+        )
+      )
+      (net "N-000061"
+        (wire
+          (path Lötseite 100
+            29000 -38500
+            29000 -36774
+            28500 -36274
+            28500 -33000
+            30500 -31000
+          )
+        )
+      )
+      (net /Y_NFA
+        (wire
+          (path Lötseite 296
+            33000 -36750
+            32750 -36500
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 198
+            32750 -36500
+            31500 -36500
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            31500 -36500
+            30750 -35750
+            29750 -35750
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 198
+            33000 -38500
+            33000 -36750
+          )
+          (type protect)
+        )
+      )
+      (net /Y_NFB
+        (wire
+          (path Lötseite 296
+            37250 -35750
+            35000 -35750
+            34500 -36250
+            34500 -37700
+          )
+          (type protect)
+        )
+      )
+      (net "N-000064"
+        (wire
+          (path Lötseite 100
+            31500 -31000
+            32002 -31502
+            34605 -31502
+            35374 -30733
+            36841 -30733
+            39000 -32892
+            39000 -38500
+          )
+        )
+      )
+      (net "N-000059"
+        (wire
+          (path Lötseite 100
+            39500 -37700
+            39500 -33107
+            36924 -30531
+            32969 -30531
+            32500 -31000
+          )
+        )
+      )
+      (net "N-000066"
+        (wire
+          (path Lötseite 100
+            43000 -37700
+            43000 -32500
+            44500 -31000
+          )
+        )
+      )
+      (net "N-000069"
+        (wire
+          (path Lötseite 100
+            45500 -31000
+            43500 -33000
+            43500 -38500
+          )
+        )
+      )
+      (net "N-000068"
+        (wire
+          (path Lötseite 100
+            44000 -37700
+            44000 -36811
+          )
+        )
+        (wire
+          (path Lötseite 100
+            46500 -31000
+            43741 -33759
+            43741 -36552
+            44000 -36811
+          )
+        )
+      )
+      (net "N-000067"
+        (wire
+          (path Lötseite 100
+            44500 -38500
+            44500 -36940
+            43944 -36384
+            43944 -33942
+            46238 -31648
+            46852 -31648
+            47500 -31000
+          )
+        )
+      )
+      (net /Z_NFA
+        (wire
+          (path Lötseite 296
+            48500 -36750
+            48250 -36500
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 198
+            48250 -36500
+            47000 -36500
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            47000 -36500
+            46250 -35750
+            45250 -35750
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 198
+            48500 -38500
+            48500 -36750
+          )
+          (type protect)
+        )
+      )
+      (net /Z_NFB
+        (wire
+          (path Lötseite 296
+            52750 -35750
+            50500 -35750
+            50000 -36250
+            50000 -37700
+          )
+          (type protect)
+        )
+      )
+      (net "N-000070"
+        (wire
+          (path Lötseite 100
+            48500 -31000
+            49208 -31708
+            52010 -31708
+            52966 -30752
+            53905 -30752
+            54500 -31347
+            54500 -38500
+          )
+        )
+      )
+      (net "N-000065"
+        (wire
+          (path Lötseite 100
+            55000 -36811
+            55000 -31460
+            54090 -30550
+            49950 -30550
+            49500 -31000
+          )
+        )
+        (wire
+          (path Lötseite 100
+            55000 -37700
+            55000 -36811
+          )
+        )
+      )
+      (net "N-000072"
+        (wire
+          (path Lötseite 100
+            58500 -36811
+            58000 -36311
+            58000 -31000
+          )
+        )
+        (wire
+          (path Lötseite 100
+            58500 -37700
+            58500 -36811
+          )
+        )
+      )
+      (net "N-000075"
+        (wire
+          (path Lötseite 100
+            59000 -38500
+            59000 -38007
+          )
+        )
+        (wire
+          (path Lötseite 100
+            59000 -31000
+            58990 -31010
+            58990 -37997
+            59000 -38007
+          )
+        )
+      )
+      (net "N-000074"
+        (wire
+          (path Lötseite 100
+            60000 -31000
+            59191 -31809
+            59191 -36502
+            59500 -36811
+          )
+        )
+        (wire
+          (path Lötseite 100
+            59500 -37700
+            59500 -36811
+          )
+        )
+      )
+      (net "N-000073"
+        (wire
+          (path Lötseite 100
+            61000 -31000
+            59393 -32607
+            59393 -36341
+            60000 -36948
+            60000 -38500
+          )
+        )
+      )
+      (net /A_NFA
+        (wire
+          (path Lötseite 296
+            64000 -36750
+            63750 -36500
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 198
+            63750 -36500
+            62250 -36500
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            62250 -36500
+            61500 -35750
+            60750 -35750
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 198
+            64000 -38500
+            64000 -36750
+          )
+          (type protect)
+        )
+      )
+      (net /A_NFB
+        (wire
+          (path Lötseite 198
+            68250 -35750
+            66000 -35750
+            65500 -36250
+            65500 -37700
+          )
+          (type protect)
+        )
+      )
+      (net "N-000076"
+        (wire
+          (path Lötseite 100
+            62000 -31000
+            62552 -31552
+            63837 -31552
+            64653 -30736
+            67324 -30736
+            70000 -33412
+            70000 -38500
+          )
+        )
+      )
+      (net "N-000071"
+        (wire
+          (path Lötseite 100
+            70500 -37700
+            70500 -33627
+            67407 -30534
+            63466 -30534
+            63000 -31000
+          )
+        )
+      )
+      (net "N-000005"
+        (wire
+          (path Lötseite 100
+            12750 -31250
+            12000 -32000
+            12000 -37700
+          )
+        )
+      )
+      (net "N-000057"
+        (wire
+          (path Lötseite 100
+            12500 -38500
+            12500 -38007
+          )
+        )
+        (wire
+          (path Lötseite 100
+            13750 -31250
+            12500 -32500
+            12500 -38007
+          )
+        )
+      )
+      (net "N-000056"
+        (wire
+          (path Lötseite 100
+            13000 -37700
+            13000 -36811
+          )
+        )
+        (wire
+          (path Lötseite 100
+            14750 -31250
+            12888 -33112
+            12888 -36699
+            13000 -36811
+          )
+        )
+      )
+      (net "N-000006"
+        (wire
+          (path Lötseite 100
+            15750 -31250
+            13100 -33900
+            13100 -36553
+            13500 -36953
+            13500 -38500
+          )
+        )
+      )
+      (net /X_NFA
+        (wire
+          (path Lötseite 296
+            17500 -36750
+            17250 -36500
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 198
+            17250 -36500
+            16000 -36500
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 296
+            16000 -36500
+            15250 -35750
+            14250 -35750
+          )
+          (type protect)
+        )
+        (wire
+          (path Lötseite 198
+            17500 -38500
+            17500 -36750
+          )
+          (type protect)
+        )
+      )
+      (net /X_NFB
+        (wire
+          (path Lötseite 296
+            21750 -35750
+            19500 -35750
+            19000 -36250
+            19000 -37700
+          )
+          (type protect)
+        )
+      )
+      (net "N-000058"
+        (wire
+          (path Lötseite 100
+            16750 -31250
+            17413 -31913
+            19894 -31913
+            21056 -30751
+            22340 -30751
+            23500 -31911
+            23500 -38500
+          )
+        )
+      )
+      (net "N-000004"
+        (wire
+          (path Lötseite 100
+            24000 -36811
+            24000 -31841
+            22709 -30550
+            18450 -30550
+            17750 -31250
+          )
+        )
+        (wire
+          (path Lötseite 100
+            24000 -37700
+            24000 -36811
+          )
+        )
+      )
+      (net /REL_OUT0
+        (wire
+          (path Bestückungsseite 160
+            68000 -23264
+            68000 -22642
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            71250 -22195
+            68447 -22195
+            68000 -22642
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            51750 -26150
+            52158 -26150
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            68000 -23264
+            68000 -23885
+          )
+        )
+        (wire
+          (path Bestückungsseite 160
+            68000 -23885
+            66962 -24923
+            61030 -24923
+            59139 -26814
+            52822 -26814
+            52158 -26150
+          )
+        )
+      )
+      (net "N-000078"
+        (wire
+          (path Bestückungsseite 100
+            52100 -25350
+            52100 -24972
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            52250 -24400
+            52250 -24898
+          )
+        )
+        (wire
+          (path Bestückungsseite 100
+            52250 -24898
+            52176 -24972
+            52100 -24972
+          )
+        )
+      )
+    )
+  )
+)
